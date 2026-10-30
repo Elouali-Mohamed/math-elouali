@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Math pour Collège et Lycée — ressources de mathématiques pour les élèves marocains.">
+  <meta name="theme-color" content="#e81750">
+  <title>Math pour Collège et Lycée | Pr. ELOUALI MOHAMED</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Aller au contenu</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#accueil" aria-label="Accueil Math pour Collège et Lycée">
+        <img src="assets/logo.png" alt="Logo Math pour Collège et Lycée" class="brand-logo">
+        <span class="brand-text">Math pour Collège et Lycée<small>Pr. ELOUALI MOHAMED</small></span>
+      </a>
+      <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="main-nav">☰ <span class="sr-only">Ouvrir le menu</span></button>
+      <nav class="main-nav" id="main-nav" aria-label="Navigation principale">
+        <a href="#accueil">⌂ <span>Accueil</span></a><a href="#niveaux">▣ <span>Niveaux</span></a><a href="#ressources">✎ <span>Exercices & cours</span></a><a href="#ressources">▤ <span>Examens</span></a><a href="#fichiers-pedagogiques">☁ <span>Fichiers pédagogiques</span></a><a href="#apropos">ⓘ <span>À propos</span></a>
+      </nav>
+      <div class="language-switch" role="group" aria-label="Choisir la langue"><button type="button" class="lang-btn is-active" data-lang="fr" aria-pressed="true">🇫🇷 Français</button><button type="button" class="lang-btn" data-lang="ar" aria-pressed="false">🇲🇦 العربية</button></div>
+    </div>
+  </header>
+  <div class="welcome-marquee" aria-label="Messages de bienvenue"><div class="welcome-marquee-track"><span>📣 Bienvenue sur Math pour Collège et Lycée</span><b>│</b><span>PLATEFORME ÉDUCATIVE • MAROC</span><b>│</b><span>📚 تجدون في صفحتنا امتحانات وفروض ودروس لجميع المستويات ✨</span><b>│</b><span>📣 Bienvenue sur Math pour Collège et Lycée</span><b>│</b><span>PLATEFORME ÉDUCATIVE • MAROC</span><b>│</b><span>📚 تجدون في صفحتنا امتحانات وفروض ودروس لجميع المستويات ✨</span></div></div>
+  <main id="main">
+    <section class="hero hero-centered" id="accueil">
+      <div class="hero-copy sr-only"><p class="eyebrow">PLATEFORME ÉDUCATIVE • MAROC</p><h1>Les mathématiques deviennent <span>plus simples.</span></h1><p class="hero-description">Retrouvez ici vos cours, exercices, devoirs et examens de mathématiques, du primaire au lycée.</p><div class="hero-actions"><a href="#niveaux">Explorer les niveaux</a><a href="#ressources">Voir les ressources</a></div><p class="hero-note">Apprendre • Comprendre • Réussir</p></div>
+      <div class="math-doodle doodle-left"><span>△</span><small>a² + b² = c²</small><span>y = f(x)</span></div>
+      <div class="hero-art"><div class="math-orbit orbit-one"></div><div class="math-orbit orbit-two"></div><div class="math-symbol symbol-pi">π</div><div class="math-symbol symbol-sigma">Σ</div><div class="math-symbol symbol-root">√x</div><div class="math-symbol symbol-equals">x²</div><img class="hero-logo" src="assets/logo.png" alt="Logo Math pour Collège et Lycée — Pr. ELOUALI MOHAMED"><div class="art-caption">Apprendre • Comprendre • Réussir</div></div>
+      <div class="math-doodle doodle-right"><span>f(x) = x²</span><small>◇</small><span>∠ ABC</span></div>
+    </section>
+    <section class="quick-links" aria-label="Accès rapides"><div class="container quick-grid"><a class="quick-card blue" href="#niveaux" data-category-select="primary"><span class="quick-icon">🧒</span><div><h2 data-fr="Primaire" data-ar="التعليم الابتدائي">Primaire</h2><p data-fr="De la 1re à la 6e année primaire" data-ar="من المستوى الأول إلى السادس ابتدائي">De la 1re à la 6e année primaire</p></div><b>›</b></a><a class="quick-card green" href="#niveaux" data-category-select="college"><span class="quick-icon">🎓</span><div><h2 data-fr="Collège" data-ar="التعليم الإعدادي">Collège</h2><p data-fr="1AC, 2AC et 3AC" data-ar="الأولى والثانية والثالثة إعدادي">1AC, 2AC et 3AC</p></div><b>›</b></a><a class="quick-card purple" href="#niveaux" data-category-select="lycee"><span class="quick-icon">📘</span><div><h2 data-fr="Lycée" data-ar="التعليم الثانوي التأهيلي">Lycée</h2><p data-fr="Tronc commun, 1ère Bac et 2ème Bac" data-ar="الجذع المشترك والأولى والثانية باكالوريا">Tronc commun, 1ère Bac et 2ème Bac</p></div><b>›</b></a><a class="quick-card blue" href="#ressources"><span class="quick-icon">▣</span><div><h2 data-fr="Cours" data-ar="الدروس">Cours</h2><p data-fr="Leçons et résumés pour tous les niveaux" data-ar="دروس وملخصات لجميع المستويات">Leçons et résumés pour tous les niveaux</p></div><b>›</b></a><a class="quick-card green" href="#ressources"><span class="quick-icon">✎</span><div><h2 data-fr="Exercices" data-ar="التمارين">Exercices</h2><p data-fr="Entraînez-vous et progressez" data-ar="تدرّب وتقدّم في مستواك">Entraînez-vous et progressez</p></div><b>›</b></a><a class="quick-card pink" href="#ressources"><span class="quick-icon">▤</span><div><h2 data-fr="Examens" data-ar="الامتحانات">Examens</h2><p data-fr="Régionaux, nationaux et devoirs" data-ar="امتحانات جهوية ووطنية وفروض">Régionaux, nationaux et devoirs</p></div><b>›</b></a><a class="quick-card orange" href="#memorandums"><span class="quick-icon">📜</span><div><h2 data-fr="Mémorandums ministériels" data-ar="مذكرات وزارية">Mémorandums ministériels</h2><p data-fr="Documents officiels en PDF" data-ar="وثائق رسمية بصيغة PDF">Documents officiels en PDF</p></div><b>›</b></a><a class="quick-card purple" href="#distributions"><span class="quick-icon">📅</span><div><h2 data-fr="Répartitions annuelles" data-ar="التوزيعات السنوية">Répartitions annuelles</h2><p data-fr="Répartitions du programme par niveau" data-ar="توزيعات البرنامج حسب المستوى">Répartitions du programme par niveau</p></div><b>›</b></a><a class="quick-card green" href="#fichiers-pedagogiques"><span class="quick-icon">📂</span><div><h2 data-fr="Fichiers pédagogiques" data-ar="Fichiers pédagogiques">Fichiers pédagogiques</h2><p data-fr="Documents pédagogiques par niveau" data-ar="وثائق تربوية حسب المستوى">Documents pédagogiques par niveau</p></div><b>›</b></a><a class="quick-card purple" href="#apropos"><span class="quick-icon">ⓘ</span><div><h2 data-fr="À propos" data-ar="من نحن">À propos</h2><p data-fr="Notre mission et nos valeurs" data-ar="رسالتنا وقيمنا">Notre mission et nos valeurs</p></div><b>›</b></a></div></section>
+  <section class="section special-documents-section" id="memorandums">
+    <div class="container">
+      <div class="section-heading"><p class="eyebrow" data-fr="DOCUMENTS OFFICIELS" data-ar="وثائق رسمية">DOCUMENTS OFFICIELS</p><h2 data-fr="Mémorandums ministériels" data-ar="مذكرات وزارية">Mémorandums ministériels</h2><p data-fr="Consultez et ouvrez les mémorandums ministériels en PDF." data-ar="تصفح وافتح المذكرات الوزارية بصيغة PDF.">Consultez et ouvrez les mémorandums ministériels en PDF.</p></div>
+      <div class="special-documents-grid" id="memorandums-list" aria-live="polite"></div>
+    </div>
+  </section>
+  <section class="section special-documents-section section-soft" id="distributions">
+    <div class="container">
+      <div class="section-heading"><p class="eyebrow" data-fr="ORGANISATION DES APPRENTISSAGES" data-ar="تنظيم التعلمات">ORGANISATION DES APPRENTISSAGES</p><h2 data-fr="Répartitions annuelles" data-ar="التوزيعات السنوية">Répartitions annuelles</h2><p data-fr="Retrouvez les répartitions annuelles par niveau scolaire." data-ar="اعثر على التوزيعات السنوية حسب المستوى الدراسي.">Retrouvez les répartitions annuelles par niveau scolaire.</p></div>
+      <div class="special-documents-grid" id="distributions-list" aria-live="polite"></div>
+    </div>
+  </section>
+  <section class="section special-documents-section" id="fichiers-pedagogiques">
+    <div class="container">
+      <div class="section-heading"><p class="eyebrow" data-fr="DOCUMENTS PÉDAGOGIQUES" data-ar="وثائق تربوية">DOCUMENTS PÉDAGOGIQUES</p><h2 data-fr="Fichiers pédagogiques" data-ar="Fichiers pédagogiques">Fichiers pédagogiques</h2><p data-fr="Accédez aux fichiers pédagogiques classés par niveau." data-ar="اطلع على الملفات التربوية المصنفة حسب المستوى.">Accédez aux fichiers pédagogiques classés par niveau.</p></div>
+      <div class="special-documents-grid" id="fichiers-pedagogiques-list" aria-live="polite"></div>
+    </div>
+  </section>
+  <section class="section" id="niveaux">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">APPRENDRE À SON RYTHME</p>
+          <h2>Choisissez votre cycle</h2>
+          <p>Choisissez Primaire, Collège ou Lycée, puis sélectionnez votre niveau scolaire.</p>
+        </div>
+        <div class="level-grid cycle-grid" id="cycle-grid">
+          <button class="level-card cycle-card" type="button" data-cycle="primary"><span class="level-icon">🧒</span><span class="level-number">01</span><h3>Primaire</h3><p>De la 1re à la 6e année primaire.</p><span class="card-arrow">Choisir un niveau ↗</span></button>
+          <button class="level-card cycle-card" type="button" data-cycle="college"><span class="level-icon">🎓</span><span class="level-number">02</span><h3>Collège</h3><p>1AC, 2AC et 3AC.</p><span class="card-arrow">Choisir un niveau ↗</span></button>
+          <button class="level-card cycle-card" type="button" data-cycle="lycee"><span class="level-icon">📘</span><span class="level-number">03</span><h3>Lycée</h3><p>Tronc commun, 1ère Bac et 2ème Bac.</p><span class="card-arrow">Choisir un niveau ↗</span></button>
+        </div>
+        <div id="sublevel-panel" hidden>
+          <div class="sublevel-heading"><button class="button button-secondary" id="back-to-cycles" type="button">← Tous les cycles</button><div><p class="eyebrow" id="selected-cycle-eyebrow">NIVEAUX SCOLAIRES</p><h2 id="selected-cycle-title">Choisissez votre niveau</h2><p id="selected-cycle-description">Sélectionnez votre niveau pour accéder aux ressources.</p></div></div>
+          <div class="level-grid" id="sublevel-grid"></div>
+          <div id="level-detail-panel" hidden>
+            <div class="level-detail-heading">
+              <button class="button button-secondary" id="back-to-levels" type="button">← Retour aux niveaux</button>
+              <div>
+                <p class="eyebrow" id="selected-level-eyebrow">VOTRE ESPACE DE TRAVAIL</p>
+                <h2 id="selected-level-title">Ressources du niveau</h2>
+                <p id="selected-level-description">Choisissez une catégorie pour consulter les documents.</p>
+              </div>
+            </div>
+            <div class="level-category-grid">
+              <button class="level-category-card category-courses" type="button" data-resource-category="Cours">
+                <span class="category-emoji">📚</span><h3 data-category-label="courses">Cours</h3>
+                <p data-category-description="courses">Leçons et résumés du programme.</p><span class="card-arrow">Explorer ↗</span>
+              </button>
+              <button class="level-category-card category-exercises" type="button" data-resource-category="Exercices">
+                <span class="category-emoji">✍️</span><h3 data-category-label="exercises">Exercices</h3>
+                <p data-category-description="exercises">Entraînement et application.</p><span class="card-arrow">Explorer ↗</span>
+              </button>
+              <button class="level-category-card category-homework" type="button" data-resource-category="Devoirs">
+                <span class="category-emoji">📝</span><h3 data-category-label="homework">Devoirs</h3>
+                <p data-category-description="homework">Devoirs surveillés et évaluations.</p><span class="card-arrow">Explorer ↗</span>
+              </button>
+              <button class="level-category-card category-exams" type="button" data-resource-category="Examens">
+                <span class="category-emoji">🎓</span><h3 data-category-label="exams">Examens</h3>
+                <p data-category-description="exams">Examens régionaux et nationaux.</p><span class="card-arrow">Explorer ↗</span>
+              </button>
+            </div>
+          </div>
+          <div id="format-detail-panel" hidden>
+              <div class="format-detail-heading">
+                <button class="button button-secondary" id="back-to-categories" type="button">← Retour aux catégories</button>
+                <div>
+                  <p class="eyebrow" id="selected-category-eyebrow">CHOISIR UN FORMAT</p>
+                  <h2 id="selected-category-title">Cours</h2>
+                  <p id="selected-category-description">Choisissez les documents PDF ou les vidéos.</p>
+                </div>
+              </div>
+              <div class="format-choice-grid">
+                <button class="format-choice-card format-pdf" type="button" data-resource-format="PDF">
+                  <span class="format-emoji">📄</span><h3 data-format-label="pdf">Documents PDF</h3>
+                  <p data-format-description="pdf">Fiches, cours et documents à consulter ou télécharger.</p><span class="card-arrow">Explorer ↗</span>
+                </button>
+                <button class="format-choice-card format-video" type="button" data-resource-format="Vidéo">
+                  <span class="format-emoji">🎬</span><h3 data-format-label="video">Vidéos</h3>
+                  <p data-format-description="video">Explications vidéo et leçons en images.</p><span class="card-arrow">Explorer ↗</span>
+                </button>
+              </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="ressources">
+      <div class="container">
+        <div class="section-heading">
+          <p class="eyebrow">BIBLIOTHÈQUE</p>
+          <h2>Bibliothèque de documents</h2>
+          <p>Consultez les documents disponibles pour votre niveau scolaire.</p>
+        </div>
+        <div class="filters">
+          <label class="search-box"><span aria-hidden="true">⌕</span><input id="search-input" type="search" placeholder="Rechercher une ressource…" aria-label="Rechercher une ressource"></label>
+          <label><span class="sr-only">Filtrer par niveau</span><select id="level-filter"><option value="">Tous les niveaux</option><option value="1AEP">1AEP</option><option value="2AEP">2AEP</option><option value="3AEP">3AEP</option><option value="4AEP">4AEP</option><option value="5AEP">5AEP</option><option value="6AEP">6AEP</option><option value="1AC">1AC</option><option value="2AC">2AC</option><option value="3AC">3AC</option><option value="TC">Tronc Commun Sciences</option><option value="TCL">Tronc Commun Lettres</option><option value="1BACSE">1BAC Sciences Expérimentales</option><option value="1BACSM">1BAC Sciences Mathématiques</option><option value="1BACL">1BAC Lettres</option><option value="2BACSVTPC">2BAC SVT et PC</option><option value="2BACL">2BAC Lettres</option><option value="2BACSM">2BAC Mathématiques</option></select></label>
+          <label><span class="sr-only">Filtrer par type</span><select id="type-filter"><option value="">Toutes les catégories</option><option value="Cours">Cours</option><option value="Résumé">Résumé</option><option value="Exercices">Exercices</option><option value="Devoirs">Devoirs</option><option value="Examens">Examens</option><option value="Correction">Correction</option><option value="Vidéo">Vidéo</option></select></label>
+        </div>
+        <div id="resource-grid" class="resource-grid" aria-live="polite"></div>
+        <div id="empty-state" class="empty-state">
+          <div class="empty-icon">＋</div><h3>Aucun document disponible pour cette sélection</h3>
+          <p>Essayez un autre niveau ou une autre catégorie.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section" id="apropos">
+      <div class="container about-inner">
+        <div class="about-mark">π</div>
+        <div><p class="eyebrow">À PROPOS</p><h2>Une bibliothèque de mathématiques pour tous.</h2>
+          <p>Cette plateforme a pour objectif de rassembler des ressources de mathématiques adaptées aux élèves marocains, du primaire au lycée.</p>
+          <p class="signature">Pr. ELOUALI MOHAMED</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="container contact-inner">
+        <div><p class="eyebrow">RESTONS EN CONTACT</p><h2>Une question ou une suggestion ?</h2><p>Ajoutez ici votre page Facebook, votre adresse e-mail ou tout autre moyen de contact.</p></div>
+        <a class="button button-primary" id="contact-link" href="#" aria-label="Configurer le lien de contact">Configurer le contact</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><span>🇲🇦 Maroc • Ensemble pour la réussite</span><a class="footer-brand" href="#accueil">Math pour Collège et Lycée</a><p>Pr. ELOUALI MOHAMED</p><p class="footer-facebook"><span class="facebook-icon" aria-hidden="true">f</span><a href="https://www.facebook.com/profile.php?id=61551624256935" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir la page Facebook Math pour Collège et Lycée">Facebook : Math pour Collège et Lycée</a></p><p>© <span id="current-year"></span> Tous droits réservés.</p></div>
+  </footer>
+  <script src="data/Cours/PDF/1AEP.js"></script>
+  <script src="data/Cours/Videos/1AEP.js"></script>
+  <script src="data/Exercices/PDF/1AEP.js"></script>
+  <script src="data/Exercices/Videos/1AEP.js"></script>
+  <script src="data/Devoirs/PDF/1AEP.js"></script>
+  <script src="data/Devoirs/Videos/1AEP.js"></script>
+  <script src="data/Examens/PDF/1AEP.js"></script>
+  <script src="data/Examens/Videos/1AEP.js"></script>
+  <script src="data/Cours/PDF/2AEP.js"></script>
+  <script src="data/Cours/Videos/2AEP.js"></script>
+  <script src="data/Exercices/PDF/2AEP.js"></script>
+  <script src="data/Exercices/Videos/2AEP.js"></script>
+  <script src="data/Devoirs/PDF/2AEP.js"></script>
+  <script src="data/Devoirs/Videos/2AEP.js"></script>
+  <script src="data/Examens/PDF/2AEP.js"></script>
+  <script src="data/Examens/Videos/2AEP.js"></script>
+  <script src="data/Cours/PDF/3AEP.js"></script>
+  <script src="data/Cours/Videos/3AEP.js"></script>
+  <script src="data/Exercices/PDF/3AEP.js"></script>
+  <script src="data/Exercices/Videos/3AEP.js"></script>
+  <script src="data/Devoirs/PDF/3AEP.js"></script>
+  <script src="data/Devoirs/Videos/3AEP.js"></script>
+  <script src="data/Examens/PDF/3AEP.js"></script>
+  <script src="data/Examens/Videos/3AEP.js"></script>
+  <script src="data/Cours/PDF/4AEP.js"></script>
+  <script src="data/Cours/Videos/4AEP.js"></script>
+  <script src="data/Exercices/PDF/4AEP.js"></script>
+  <script src="data/Exercices/Videos/4AEP.js"></script>
+  <script src="data/Devoirs/PDF/4AEP.js"></script>
+  <script src="data/Devoirs/Videos/4AEP.js"></script>
+  <script src="data/Examens/PDF/4AEP.js"></script>
+  <script src="data/Examens/Videos/4AEP.js"></script>
+  <script src="data/Cours/PDF/5AEP.js"></script>
+  <script src="data/Cours/Videos/5AEP.js"></script>
+  <script src="data/Exercices/PDF/5AEP.js"></script>
+  <script src="data/Exercices/Videos/5AEP.js"></script>
+  <script src="data/Devoirs/PDF/5AEP.js"></script>
+  <script src="data/Devoirs/Videos/5AEP.js"></script>
+  <script src="data/Examens/PDF/5AEP.js"></script>
+  <script src="data/Examens/Videos/5AEP.js"></script>
+  <script src="data/Cours/PDF/6AEP.js"></script>
+  <script src="data/Cours/Videos/6AEP.js"></script>
+  <script src="data/Exercices/PDF/6AEP.js"></script>
+  <script src="data/Exercices/Videos/6AEP.js"></script>
+  <script src="data/Devoirs/PDF/6AEP.js"></script>
+  <script src="data/Devoirs/Videos/6AEP.js"></script>
+  <script src="data/Examens/PDF/6AEP.js"></script>
+  <script src="data/Examens/Videos/6AEP.js"></script>
+  <script src="data/Cours/PDF/1AC.js"></script>
+  <script src="data/Cours/Videos/1AC.js"></script>
+  <script src="data/Exercices/PDF/1AC.js"></script>
+  <script src="data/Exercices/Videos/1AC.js"></script>
+  <script src="data/Devoirs/PDF/1AC.js"></script>
+  <script src="data/Devoirs/Videos/1AC.js"></script>
+  <script src="data/Examens/PDF/1AC.js"></script>
+  <script src="data/Examens/Videos/1AC.js"></script>
+  <script src="data/Cours/PDF/2AC.js"></script>
+  <script src="data/Cours/Videos/2AC.js"></script>
+  <script src="data/Exercices/PDF/2AC.js"></script>
+  <script src="data/Exercices/Videos/2AC.js"></script>
+  <script src="data/Devoirs/PDF/2AC.js"></script>
+  <script src="data/Devoirs/Videos/2AC.js"></script>
+  <script src="data/Examens/PDF/2AC.js"></script>
+  <script src="data/Examens/Videos/2AC.js"></script>
+  <script src="data/Cours/PDF/3AC.js"></script>
+  <script src="data/Cours/Videos/3AC.js"></script>
+  <script src="data/Exercices/PDF/3AC.js"></script>
+  <script src="data/Exercices/Videos/3AC.js"></script>
+  <script src="data/Devoirs/PDF/3AC.js"></script>
+  <script src="data/Devoirs/Videos/3AC.js"></script>
+  <script src="data/Examens/PDF/3AC.js"></script>
+  <script src="data/Examens/Videos/3AC.js"></script>
+  <script src="data/Cours/PDF/TC.js"></script>
+  <script src="data/Cours/Videos/TC.js"></script>
+  <script src="data/Exercices/PDF/TC.js"></script>
+  <script src="data/Exercices/Videos/TC.js"></script>
+  <script src="data/Devoirs/PDF/TC.js"></script>
+  <script src="data/Devoirs/Videos/TC.js"></script>
+  <script src="data/Examens/PDF/TC.js"></script>
+  <script src="data/Examens/Videos/TC.js"></script>
+  <script src="data/Cours/PDF/1BACSM.js"></script>
+  <script src="data/Cours/Videos/1BACSM.js"></script>
+  <script src="data/Exercices/PDF/1BACSM.js"></script>
+  <script src="data/Exercices/Videos/1BACSM.js"></script>
+  <script src="data/Devoirs/PDF/1BACSM.js"></script>
+  <script src="data/Devoirs/Videos/1BACSM.js"></script>
+  <script src="data/Examens/PDF/1BACSM.js"></script>
+  <script src="data/Examens/Videos/1BACSM.js"></script>
+  <script src="data/Cours/PDF/1BACSE.js"></script>
+  <script src="data/Cours/Videos/1BACSE.js"></script>
+  <script src="data/Exercices/PDF/1BACSE.js"></script>
+  <script src="data/Exercices/Videos/1BACSE.js"></script>
+  <script src="data/Devoirs/PDF/1BACSE.js"></script>
+  <script src="data/Devoirs/Videos/1BACSE.js"></script>
+  <script src="data/Examens/PDF/1BACSE.js"></script>
+  <script src="data/Examens/Videos/1BACSE.js"></script>
+  <script src="data/Cours/PDF/2BACSM.js"></script>
+  <script src="data/Cours/Videos/2BACSM.js"></script>
+  <script src="data/Exercices/PDF/2BACSM.js"></script>
+  <script src="data/Exercices/Videos/2BACSM.js"></script>
+  <script src="data/Devoirs/PDF/2BACSM.js"></script>
+  <script src="data/Devoirs/Videos/2BACSM.js"></script>
+  <script src="data/Examens/PDF/2BACSM.js"></script>
+  <script src="data/Examens/Videos/2BACSM.js"></script>
+  <script src="data/Cours/PDF/2BACSE.js"></script>
+  <script src="data/Cours/Videos/2BACSE.js"></script>
+  <script src="data/Exercices/PDF/2BACSE.js"></script>
+  <script src="data/Exercices/Videos/2BACSE.js"></script>
+  <script src="data/Devoirs/PDF/2BACSE.js"></script>
+  <script src="data/Devoirs/Videos/2BACSE.js"></script>
+  <script src="data/Examens/PDF/2BACSE.js"></script>
+  <script src="data/Examens/Videos/2BACSE.js"></script>
+  <script src="data/Cours/PDF/1BACTE.js"></script>
+  <script src="data/Cours/Videos/1BACTE.js"></script>
+  <script src="data/Exercices/PDF/1BACTE.js"></script>
+  <script src="data/Exercices/Videos/1BACTE.js"></script>
+  <script src="data/Devoirs/PDF/1BACTE.js"></script>
+  <script src="data/Devoirs/Videos/1BACTE.js"></script>
+  <script src="data/Examens/PDF/1BACTE.js"></script>
+  <script src="data/Examens/Videos/1BACTE.js"></script>
+  <script src="data/Cours/PDF/1BACTM.js"></script>
+  <script src="data/Cours/Videos/1BACTM.js"></script>
+  <script src="data/Exercices/PDF/1BACTM.js"></script>
+  <script src="data/Exercices/Videos/1BACTM.js"></script>
+  <script src="data/Devoirs/PDF/1BACTM.js"></script>
+  <script src="data/Devoirs/Videos/1BACTM.js"></script>
+  <script src="data/Examens/PDF/1BACTM.js"></script>
+  <script src="data/Examens/Videos/1BACTM.js"></script>
+  <script src="data/Cours/PDF/1BACSECO.js"></script>
+  <script src="data/Cours/Videos/1BACSECO.js"></script>
+  <script src="data/Exercices/PDF/1BACSECO.js"></script>
+  <script src="data/Exercices/Videos/1BACSECO.js"></script>
+  <script src="data/Devoirs/PDF/1BACSECO.js"></script>
+  <script src="data/Devoirs/Videos/1BACSECO.js"></script>
+  <script src="data/Examens/PDF/1BACSECO.js"></script>
+  <script src="data/Examens/Videos/1BACSECO.js"></script>
+  <script src="data/Cours/PDF/1BACLH.js"></script>
+  <script src="data/Cours/Videos/1BACLH.js"></script>
+  <script src="data/Exercices/PDF/1BACLH.js"></script>
+  <script src="data/Exercices/Videos/1BACLH.js"></script>
+  <script src="data/Devoirs/PDF/1BACLH.js"></script>
+  <script src="data/Devoirs/Videos/1BACLH.js"></script>
+  <script src="data/Examens/PDF/1BACLH.js"></script>
+  <script src="data/Examens/Videos/1BACLH.js"></script>
+  <script src="data/Cours/PDF/1BACAA.js"></script>
+  <script src="data/Cours/Videos/1BACAA.js"></script>
+  <script src="data/Exercices/PDF/1BACAA.js"></script>
+  <script src="data/Exercices/Videos/1BACAA.js"></script>
+  <script src="data/Devoirs/PDF/1BACAA.js"></script>
+  <script src="data/Devoirs/Videos/1BACAA.js"></script>
+  <script src="data/Examens/PDF/1BACAA.js"></script>
+  <script src="data/Examens/Videos/1BACAA.js"></script>
+  <script src="data/Cours/PDF/2BACPC.js"></script>
+  <script src="data/Cours/Videos/2BACPC.js"></script>
+  <script src="data/Exercices/PDF/2BACPC.js"></script>
+  <script src="data/Exercices/Videos/2BACPC.js"></script>
+  <script src="data/Devoirs/PDF/2BACPC.js"></script>
+  <script src="data/Devoirs/Videos/2BACPC.js"></script>
+  <script src="data/Examens/PDF/2BACPC.js"></script>
+  <script src="data/Examens/Videos/2BACPC.js"></script>
+  <script src="data/Cours/PDF/2BACSVT.js"></script>
+  <script src="data/Cours/Videos/2BACSVT.js"></script>
+  <script src="data/Exercices/PDF/2BACSVT.js"></script>
+  <script src="data/Exercices/Videos/2BACSVT.js"></script>
+  <script src="data/Devoirs/PDF/2BACSVT.js"></script>
+  <script src="data/Devoirs/Videos/2BACSVT.js"></script>
+  <script src="data/Examens/PDF/2BACSVT.js"></script>
+  <script src="data/Examens/Videos/2BACSVT.js"></script>
+  <script src="data/Cours/PDF/2BACSTE.js"></script>
+  <script src="data/Cours/Videos/2BACSTE.js"></script>
+  <script src="data/Exercices/PDF/2BACSTE.js"></script>
+  <script src="data/Exercices/Videos/2BACSTE.js"></script>
+  <script src="data/Devoirs/PDF/2BACSTE.js"></script>
+  <script src="data/Devoirs/Videos/2BACSTE.js"></script>
+  <script src="data/Examens/PDF/2BACSTE.js"></script>
+  <script src="data/Examens/Videos/2BACSTE.js"></script>
+  <script src="data/Cours/PDF/2BACSTM.js"></script>
+  <script src="data/Cours/Videos/2BACSTM.js"></script>
+  <script src="data/Exercices/PDF/2BACSTM.js"></script>
+  <script src="data/Exercices/Videos/2BACSTM.js"></script>
+  <script src="data/Devoirs/PDF/2BACSTM.js"></script>
+  <script src="data/Devoirs/Videos/2BACSTM.js"></script>
+  <script src="data/Examens/PDF/2BACSTM.js"></script>
+  <script src="data/Examens/Videos/2BACSTM.js"></script>
+  <script src="data/Cours/PDF/2BACSECO.js"></script>
+  <script src="data/Cours/Videos/2BACSECO.js"></script>
+  <script src="data/Exercices/PDF/2BACSECO.js"></script>
+  <script src="data/Exercices/Videos/2BACSECO.js"></script>
+  <script src="data/Devoirs/PDF/2BACSECO.js"></script>
+  <script src="data/Devoirs/Videos/2BACSECO.js"></script>
+  <script src="data/Examens/PDF/2BACSECO.js"></script>
+  <script src="data/Examens/Videos/2BACSECO.js"></script>
+  <script src="data/Cours/PDF/2BACSGC.js"></script>
+  <script src="data/Cours/Videos/2BACSGC.js"></script>
+  <script src="data/Exercices/PDF/2BACSGC.js"></script>
+  <script src="data/Exercices/Videos/2BACSGC.js"></script>
+  <script src="data/Devoirs/PDF/2BACSGC.js"></script>
+  <script src="data/Devoirs/Videos/2BACSGC.js"></script>
+  <script src="data/Examens/PDF/2BACSGC.js"></script>
+  <script src="data/Examens/Videos/2BACSGC.js"></script>
+  <script src="data/Cours/PDF/2BACL.js"></script>
+  <script src="data/Cours/Videos/2BACL.js"></script>
+  <script src="data/Exercices/PDF/2BACL.js"></script>
+  <script src="data/Exercices/Videos/2BACL.js"></script>
+  <script src="data/Devoirs/PDF/2BACL.js"></script>
+  <script src="data/Devoirs/Videos/2BACL.js"></script>
+  <script src="data/Examens/PDF/2BACL.js"></script>
+  <script src="data/Examens/Videos/2BACL.js"></script>
+  <script src="data/Cours/PDF/2BACSH.js"></script>
+  <script src="data/Cours/Videos/2BACSH.js"></script>
+  <script src="data/Exercices/PDF/2BACSH.js"></script>
+  <script src="data/Exercices/Videos/2BACSH.js"></script>
+  <script src="data/Devoirs/PDF/2BACSH.js"></script>
+  <script src="data/Devoirs/Videos/2BACSH.js"></script>
+  <script src="data/Examens/PDF/2BACSH.js"></script>
+  <script src="data/Examens/Videos/2BACSH.js"></script>
+  <script src="data/Cours/PDF/2BACAA.js"></script>
+  <script src="data/Cours/Videos/2BACAA.js"></script>
+  <script src="data/Exercices/PDF/2BACAA.js"></script>
+  <script src="data/Exercices/Videos/2BACAA.js"></script>
+  <script src="data/Devoirs/PDF/2BACAA.js"></script>
+  <script src="data/Devoirs/Videos/2BACAA.js"></script>
+  <script src="data/Examens/PDF/2BACAA.js"></script>
+  <script src="data/Examens/Videos/2BACAA.js"></script>
+  <script src="data/Cours/PDF/2BACSA.js"></script>
+  <script src="data/Cours/Videos/2BACSA.js"></script>
+  <script src="data/Exercices/PDF/2BACSA.js"></script>
+  <script src="data/Exercices/Videos/2BACSA.js"></script>
+  <script src="data/Devoirs/PDF/2BACSA.js"></script>
+  <script src="data/Devoirs/Videos/2BACSA.js"></script>
+  <script src="data/Examens/PDF/2BACSA.js"></script>
+  <script src="data/Examens/Videos/2BACSA.js"></script>
+  <script src="data/Cours/PDF/TCL.js"></script>
+  <script src="data/Cours/Videos/TCL.js"></script>
+  <script src="data/Exercices/PDF/TCL.js"></script>
+  <script src="data/Exercices/Videos/TCL.js"></script>
+  <script src="data/Devoirs/PDF/TCL.js"></script>
+  <script src="data/Devoirs/Videos/TCL.js"></script>
+  <script src="data/Examens/PDF/TCL.js"></script>
+  <script src="data/Examens/Videos/TCL.js"></script>
+  <script src="data/Cours/PDF/1BACL.js"></script>
+  <script src="data/Cours/Videos/1BACL.js"></script>
+  <script src="data/Exercices/PDF/1BACL.js"></script>
+  <script src="data/Exercices/Videos/1BACL.js"></script>
+  <script src="data/Devoirs/PDF/1BACL.js"></script>
+  <script src="data/Devoirs/Videos/1BACL.js"></script>
+  <script src="data/Examens/PDF/1BACL.js"></script>
+  <script src="data/Examens/Videos/1BACL.js"></script>
+  <script src="data/Cours/PDF/2BACSVTPC.js"></script>
+  <script src="data/Cours/Videos/2BACSVTPC.js"></script>
+  <script src="data/Exercices/PDF/2BACSVTPC.js"></script>
+  <script src="data/Exercices/Videos/2BACSVTPC.js"></script>
+  <script src="data/Devoirs/PDF/2BACSVTPC.js"></script>
+  <script src="data/Devoirs/Videos/2BACSVTPC.js"></script>
+  <script src="data/Examens/PDF/2BACSVTPC.js"></script>
+  <script src="data/Examens/Videos/2BACSVTPC.js"></script>
+  <script src="data/memorandums.js"></script>
+  <script src="data/distributions-annuelles.js"></script>
+  <script src="data/fichiers-pedagogiques.js"></script>
+  <script src="data.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
