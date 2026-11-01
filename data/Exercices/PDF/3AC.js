@@ -77,7 +77,7 @@ window.RESOURCES_3AC_EXERCICES_PDF = [
     "level": "3AC",
     "type": "Exercices",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1jMXQc5rVn65be1Ld7714XXcC1qacfHCF/view?usp=sharing",
     "format": "PDF"
   },
   {
@@ -85,23 +85,16 @@ window.RESOURCES_3AC_EXERCICES_PDF = [
     "level": "3AC",
     "type": "Exercices",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/16e0cMa-xILNwjqzfvYGOr3DgEu0n0y9W/view?usp=sharing",
     "format": "PDF"
   },
+ 
   {
-    "title": "Repère dans le plan",
+    "title": "Équation d’une droite - Repère dans le plan",
     "level": "3AC",
     "type": "Exercices",
     "description": "",
-    "url": "",
-    "format": "PDF"
-  },
-  {
-    "title": "Équation d’une droite",
-    "level": "3AC",
-    "type": "Exercices",
-    "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1aPpeFiGDJGd_OV1OgQM4NDP_l05tUbJC/view?usp=sharing",
     "format": "PDF"
   },
   {
@@ -109,7 +102,7 @@ window.RESOURCES_3AC_EXERCICES_PDF = [
     "level": "3AC",
     "type": "Exercices",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1C4CJan1x-HRrixrXSKN1Ym_YvmqDJU3k/view?usp=sharing",
     "format": "PDF"
   },
   {
@@ -117,7 +110,7 @@ window.RESOURCES_3AC_EXERCICES_PDF = [
     "level": "3AC",
     "type": "Exercices",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1A5CUydeT-Zf9N6GMeGOaQtsGd6bBQoQj/view?usp=sharing",
     "format": "PDF"
   },
   {
@@ -125,7 +118,7 @@ window.RESOURCES_3AC_EXERCICES_PDF = [
     "level": "3AC",
     "type": "Exercices",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1ZQiF44_9iuWN5JvbQM2GLIMnN92a2iVq/view?usp=sharing",
     "format": "PDF"
   },
   {
