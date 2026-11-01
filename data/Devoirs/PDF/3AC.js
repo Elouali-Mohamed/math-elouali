@@ -9,7 +9,7 @@ window.RESOURCES_3AC_DEVOIRS_PDF = [
     "format": "PDF"
   },
   {
-    "title": "Devoir surveillé N1 semestre 2 ",
+    "title": "Devoir surveillé N2 semestre 1 ",
     "level": "3AC",
     "type": "Devoirs",
     "description": "",
@@ -17,15 +17,15 @@ window.RESOURCES_3AC_DEVOIRS_PDF = [
     "format": "PDF"
   },
   {
-    "title": "Devoir surveillé N2 semestre 1 ",
+    "title": "Devoir surveillé N3 semestre 1 ",
     "level": "3AC",
     "type": "Devoirs",
     "description": "",
-    "url": "https://drive.google.com/file/d/10xd-EZB9VUiXeSUELpktjXJtdH9oUGp8/view?usp=sharing",
+    "url": "https://drive.google.com/file/d/1v5wIsppQEdLX8j56Nj8L-YVM7Y6mxepK/view?usp=sharing",
     "format": "PDF"
   },
   {
-    "title": "Devoir surveillé N2 semestre 2",
+    "title": "Devoir surveillé N1 semestre 2",
     "level": "3AC",
     "type": "Devoirs",
     "description": "",
@@ -33,7 +33,7 @@ window.RESOURCES_3AC_DEVOIRS_PDF = [
     "format": "PDF"
   },
   {
-    "title": "Devoir surveillé N3 semestre 1 ",
+    "title": "Devoir surveillé N2 semestre 2 ",
     "level": "3AC",
     "type": "Devoirs",
     "description": "",
