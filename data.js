@@ -1,7 +1,7 @@
 /* Registre central : chaque ressource est rangée par catégorie, format et niveau.
    Pour modifier le contenu, ouvrez data/<Categorie>/<PDF ou Videos>/<Niveau>.js. */
 const SITE_CONFIG = {
-  contactUrl: "", // Facultatif : lien de votre page Facebook
+  contactUrl: "https://web.facebook.com/profile.php?id=61551624256935", // Facultatif : lien de votre page Facebook
 };
 
 const RESOURCES = [
