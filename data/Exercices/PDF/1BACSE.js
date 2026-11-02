@@ -17,7 +17,7 @@ window.RESOURCES_1BACSE_EXERCICES_PDF = [
     "format": "PDF"
   },
   {
-    "title": "Barycentre2",
+    "title": "Barycentre",
     "level": "1BACSE",
     "type": "Exercices",
     "description": "",
