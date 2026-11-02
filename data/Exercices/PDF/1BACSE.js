@@ -17,11 +17,11 @@ window.RESOURCES_1BACSE_EXERCICES_PDF = [
     "format": "PDF"
   },
   {
-    "title": "Barycentre",
+    "title": "Barycentre2",
     "level": "1BACSE",
     "type": "Exercices",
     "description": "",
-    "url": "https://drive.google.com/file/d/1Okqk1Uq7-Eq6N4mDVpC-pEeKgF9ArEkz/view?usp=sharing",
+    "url": "",
     "format": "PDF"
   },
   {
