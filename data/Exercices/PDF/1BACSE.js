@@ -21,7 +21,7 @@ window.RESOURCES_1BACSE_EXERCICES_PDF = [
     "level": "1BACSE",
     "type": "Exercices",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1Okqk1Uq7-Eq6N4mDVpC-pEeKgF9ArEkz/view?usp=sharing",
     "format": "PDF"
   },
   {
