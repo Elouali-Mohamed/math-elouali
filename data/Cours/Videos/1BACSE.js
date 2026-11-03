@@ -2,7 +2,7 @@
 window.RESOURCES_1BACSE_COURS_VIDEOS = [
  
 {
-    "title": "NOTIONS DE LOGIQUE (1 bac) : Le raisennemnt par Récurrence",
+    "title": "NOTIONS DE LOGIQUE (1 bac) : Le raisennement par Récurrence",
     "level": "1BACSE",
     "type": "Exercices",
     "description": "",
