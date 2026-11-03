@@ -1,6 +1,7 @@
 /* Cours — PDF — niveau 1BAC Sciences Expérimentales. Les titres sont préremplis; les liens restent vides dans url. */
 window.RESOURCES_1BACSE_COURS_PDF = [
-  {
+ 
+ {
     "title": "Logique",
     "level": "1BACSE",
     "type": "Cours",
@@ -8,6 +9,7 @@ window.RESOURCES_1BACSE_COURS_PDF = [
     "url": "",
     "format": "PDF"
   },
+
   {
     "title": "Généralités sur les fonctions",
     "level": "1BACSE",
@@ -29,7 +31,7 @@ window.RESOURCES_1BACSE_COURS_PDF = [
     "level": "1BACSE",
     "type": "Cours",
     "description": "",
-    "url": "https://drive.google.com/file/d/1rUamrOmx_-FhmucAmR2wccO1LPWHBDes/view?usp=sharing",
+    "url": "https://drive.google.com/file/d/1NbtxFlZxRfB3E8Qu0b5KLW3VM3Ekud3k/view?usp=sharing",
     "format": "PDF"
   },
   {
