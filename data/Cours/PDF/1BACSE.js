@@ -29,7 +29,7 @@ window.RESOURCES_1BACSE_COURS_PDF = [
     "level": "1BACSE",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1rUamrOmx_-FhmucAmR2wccO1LPWHBDes/view?usp=sharing",
     "format": "PDF"
   },
   {
