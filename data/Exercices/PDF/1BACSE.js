@@ -1,13 +1,6 @@
 /* Exercices — PDF — niveau 1BAC Sciences Expérimentales. Les titres sont préremplis; les liens restent vides dans url. */
 window.RESOURCES_1BACSE_EXERCICES_PDF = [
-  {
-    "title": "Logique",
-    "level": "1BACSE",
-    "type": "Exercices",
-    "description": "",
-    "url": "",
-    "format": "PDF"
-  },
+ 
   {
     "title": "Généralités sur les fonctions",
     "level": "1BACSE",
@@ -54,63 +47,7 @@ window.RESOURCES_1BACSE_EXERCICES_PDF = [
   },
 
   {
-    "title": "Suites numériques",
-    "level": "1BACSE",
-    "type": "Exercices",
-    "description": "",
-    "url": "",
-    "format": "PDF"
-  },
-  {
-    "title": "Trigonométrie",
-    "level": "1BACSE",
-    "type": "Exercices",
-    "description": "",
-    "url": "",
-    "format": "PDF"
-  },
-  {
-    "title": "Limites",
-    "level": "1BACSE",
-    "type": "Exercices",
-    "description": "",
-    "url": "",
-    "format": "PDF"
-  },
-  {
-    "title": "Rotation",
-    "level": "1BACSE",
-    "type": "Exercices",
-    "description": "",
-    "url": "",
-    "format": "PDF"
-  },
-  {
-    "title": "Dérivation",
-    "level": "1BACSE",
-    "type": "Exercices",
-    "description": "",
-    "url": "",
-    "format": "PDF"
-  },
-  {
-    "title": "Vecteurs de l’espace",
-    "level": "1BACSE",
-    "type": "Exercices",
-    "description": "",
-    "url": "",
-    "format": "PDF"
-  },
-  {
-    "title": "Étude et représentation des fonctions",
-    "level": "1BACSE",
-    "type": "Exercices",
-    "description": "",
-    "url": "",
-    "format": "PDF"
-  },
-  {
-    "title": "Géométrie analytique dans l’espace",
+    "title": "",
     "level": "1BACSE",
     "type": "Exercices",
     "description": "",
