@@ -4,103 +4,84 @@ window.RESOURCES_1BACSE_COURS_VIDEOS = [
 {
     "title": "NOTIONS DE LOGIQUE (1 bac) : Le raisennement par Récurrence",
     "level": "1BACSE",
-    "type": "Exercices",
+    "type": "Cours",
     "description": "",
     "url": "https://www.youtube.com/watch?v=AU5thBDw38M&list=PL7c6Ix23Pn8oWB-W21aGOetTm0LJgAddN",
-    "format": "Video"
+    "format": "Vidéo"
   },
 
 
 {
     "title": "NOTIONS DE LOGIQUE (1 bac) : La négation d'une proposition mathématique",
     "level": "1BACSE",
-    "type": "Exercices",
+    "type": "Cours",
     "description": "",
     "url": "https://www.youtube.com/watch?v=GPq33Nq5NEg&list=PL7c6Ix23Pn8oWB-W21aGOetTm0LJgAddN&index=2",
-    "format": "Video"
+    "format": "Vidéo"
   },
 
 {
     "title": "NOTIONS DE LOGIQUE (1 bac) : Le raisonnement par Contre exemple",
     "level": "1BACSE",
-    "type": "Exercices",
+    "type": "Cours",
     "description": "",
     "url": "https://www.youtube.com/watch?v=S0_AnEwo6cg&list=PL7c6Ix23Pn8oWB-W21aGOetTm0LJgAddN&index=3",
-    "format": "Video"
+    "format": "Vidéo"
   },
 
 
 {
     "title": "NOTIONS DE LOGIQUE (1 bac) : L'implication et l'équivalence de deux propositions mathématiques",
     "level": "1BACSE",
-    "type": "Exercices",
+    "type": "Cours",
     "description": "",
     "url": "https://www.youtube.com/watch?v=ZLj8CE3PstM&list=PL7c6Ix23Pn8oWB-W21aGOetTm0LJgAddN&index=4",
-    "format": "Video"
+    "format": "Vidéo"
   },
 {
     "title": "NOTIONS DE LOGIQUE (1 bac) : La conjonction et la disjonction de deux propositions mathématiques",
     "level": "1BACSE",
-    "type": "Exercices",
+    "type": "Cours",
     "description": "",
     "url": "https://www.youtube.com/watch?v=rINshvIJeiE&list=PL7c6Ix23Pn8oWB-W21aGOetTm0LJgAddN&index=6",
-    "format": "Video"
+    "format": "Vidéo"
   },
 
 
 {
-    "title": "NOTIONS DE LOGIQUE (1 bac) : Le raisennemnt par Contraposée",
+    "title": "NOTIONS DE LOGIQUE (1 bac) : Le raisennement par Contraposée",
     "level": "1BACSE",
-    "type": "Exercices",
+    "type": "Cours",
     "description": "",
     "url": "https://www.youtube.com/watch?v=oJKkGAcfyvI&list=PL7c6Ix23Pn8oWB-W21aGOetTm0LJgAddN&index=5",
-    "format": "Video"
+    "format": "Vidéo"
   },
 {
     "title": "NOTIONS DE LOGIQUE (1 bac) : Quantificateur universel et Quantificateur existentiel",
     "level": "1BACSE",
-    "type": "Exercices",
+    "type": "Cours",
     "description": "",
     "url": "https://www.youtube.com/watch?v=tDBAjsbkPaw&list=PL7c6Ix23Pn8oWB-W21aGOetTm0LJgAddN&index=7",
-    "format": "Video"
+    "format": "Vidéo"
   },
 
 
 {
     "title": "NOTIONS DE LOGIQUE (1 bac) : Le raisonnement par Absurde",
     "level": "1BACSE",
-    "type": "Exercices",
+    "type": "Cours",
     "description": "",
     "url": "https://www.youtube.com/watch?v=MLSOYrm-gt8&list=PL7c6Ix23Pn8oWB-W21aGOetTm0LJgAddN&index=8",
-    "format": "Video"
+    "format": "Vidéo"
   },
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
   {
     "title": "",
     "level": "1BACSE",
-    "type": "Exercices",
+    "type": "Cours",
     "description": "",
     "url": "",
-    "format": "Video"
+    "format": "Vidéo"
   }
 ];

@@ -1,16 +1,15 @@
 /* Cours — Videos — niveau Tronc Commun Sciences. Les titres sont préremplis; les liens restent vides dans url. */
 window.RESOURCES_TC_COURS_VIDEOS = [
-
-
  {
     "title": "Arithmétique dans IN: Le nombre paire et le nombre impair",
     "level": "TC",
     "type": "Cours",
     "description": "",
     "url": "https://www.youtube.com/watch?v=LCuweH6t_Po&list=PL7c6Ix23Pn8pbmvYrjGJ_q_3tJ0MMVSlD",
-    "format": "Video",
-    "semester": 1
-  },
+    "format": "Vidéo",
+     "semester": 1
+
+    },
 
    {
     "title": "Arithmétique dans IN: L'ensembe IN, le nombre paire et le nombre impaire",
@@ -18,7 +17,7 @@ window.RESOURCES_TC_COURS_VIDEOS = [
     "type": "Cours",
     "description": "",
     "url": "https://www.youtube.com/watch?v=jAo8Qn0lNqY&list=PL7c6Ix23Pn8pbmvYrjGJ_q_3tJ0MMVSlD&index=2",
-    "format": "Video",
+    "format": "Vidéo",
     "semester": 1
   },
 
@@ -31,7 +30,7 @@ window.RESOURCES_TC_COURS_VIDEOS = [
     "type": "Cours",
     "description": "",
     "url": "https://www.youtube.com/watch?v=6j_dh4uLkLM&list=PL7c6Ix23Pn8pbmvYrjGJ_q_3tJ0MMVSlD&index=3",
-    "format": "Video",
+    "format": "Vidéo",
     "semester": 1
   },
 
@@ -42,7 +41,7 @@ window.RESOURCES_TC_COURS_VIDEOS = [
     "type": "Cours",
     "description": "",
     "url": "https://www.youtube.com/watch?v=6zQQnPLZtPM&list=PL7c6Ix23Pn8pbmvYrjGJ_q_3tJ0MMVSlD&index=4",
-    "format": "Video",
+    "format": "Vidéo",
     "semester": 1
   },
 
@@ -54,7 +53,7 @@ window.RESOURCES_TC_COURS_VIDEOS = [
     "type": "Cours",
     "description": "",
     "url": "https://www.youtube.com/watch?v=UWkN-2r1wOs&list=PL7c6Ix23Pn8pbmvYrjGJ_q_3tJ0MMVSlD&index=5",
-    "format": "Video",
+    "format": "Vidéo",
     "semester": 1
   },
 
@@ -66,7 +65,7 @@ window.RESOURCES_TC_COURS_VIDEOS = [
     "type": "Cours",
     "description": "",
     "url": "",
-    "format": "Video",
+    "format": "Vidéo",
     "semester": 1
   }
 
