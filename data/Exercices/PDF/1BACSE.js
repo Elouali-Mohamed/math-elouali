@@ -1,14 +1,7 @@
 /* Exercices — PDF — niveau 1BAC Sciences Expérimentales. Les titres sont préremplis; les liens restent vides dans url. */
 window.RESOURCES_1BACSE_EXERCICES_PDF = [
  
-  {
-    "title": "Généralités sur les fonctions",
-    "level": "1BACSE",
-    "type": "Exercices",
-    "description": "",
-    "url": "",
-    "format": "PDF"
-  },
+
   {
     "title": " Serié des exercices : Barycentre",
     "level": "1BACSE",
