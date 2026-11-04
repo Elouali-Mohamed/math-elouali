@@ -1,120 +1,52 @@
 /* Exercices — Videos — niveau Tronc Commun Sciences. Les titres sont préremplis; les liens restent vides dans url. */
 window.RESOURCES_TC_EXERCICES_VIDEOS = [
   {
-    "title": "Arithmétique dans ℕ",
+    "title": "Tronc commun : Calcul vectoriel : Exercice ",
     "level": "TC",
     "type": "Exercices",
     "description": "",
-    "url": "",
-    "format": "Video",
+    "url": "https://www.youtube.com/watch?v=qzzc05euYTE",
+    "format": "vidéo",
     "semester": 1
   },
   {
-    "title": "Les ensembles de nombres (ℕ, ℤ, 𝔻, ℚ, ℝ)",
+    "title": "Tronc CM Arithmétiques: Montrer que pour tous n supérieur à 3 : si 4 divise n-1 alors 8 divise n²-1",
     "level": "TC",
     "type": "Exercices",
     "description": "",
-    "url": "",
-    "format": "Video",
+    "url": "https://www.youtube.com/watch?v=_kD625DN27Y",
+    "format": "vidéo",
     "semester": 1
   },
   {
-    "title": "L’ordre dans ℝ",
+    "title": "Tronc commun :Exercice : Déterminer les entiers x et y tels que",
     "level": "TC",
     "type": "Exercices",
     "description": "",
-    "url": "",
-    "format": "Video",
+    "url": "https://www.youtube.com/watch?v=WArDUCYm5ts",
+    "format": "vidéo",
     "semester": 1
   },
   {
-    "title": "Les polynômes",
+    "title": "Tronc commun : Le milieu et les vecteurs - correction de l’exercice",
     "level": "TC",
     "type": "Exercices",
     "description": "",
-    "url": "",
-    "format": "Video",
+    "url": "https://www.youtube.com/watch?v=elhe0CH1vpc",
+    "format": "vidéo",
     "semester": 1
   },
+
+  
+ 
+
   {
-    "title": "Équations, inéquations et systèmes",
+    "title": "",
     "level": "TC",
     "type": "Exercices",
     "description": "",
     "url": "",
-    "format": "Video",
-    "semester": 1
-  },
-  {
-    "title": "Calcul vectoriel dans le plan",
-    "level": "TC",
-    "type": "Exercices",
-    "description": "",
-    "url": "",
-    "format": "Video",
-    "semester": 1
-  },
-  {
-    "title": "La projection dans le plan",
-    "level": "TC",
-    "type": "Exercices",
-    "description": "",
-    "url": "",
-    "format": "Video",
-    "semester": 1
-  },
-  {
-    "title": "La droite dans le plan",
-    "level": "TC",
-    "type": "Exercices",
-    "description": "",
-    "url": "",
-    "format": "Video",
-    "semester": 1
-  },
-  {
-    "title": "Trigonométrie 1 (Généralités et calcul trigonométrique)",
-    "level": "TC",
-    "type": "Exercices",
-    "description": "",
-    "url": "",
-    "format": "Video",
-    "semester": 2
-  },
-  {
-    "title": "Généralités sur les fonctions numériques",
-    "level": "TC",
-    "type": "Exercices",
-    "description": "",
-    "url": "",
-    "format": "Video",
-    "semester": 2
-  },
-  {
-    "title": "Les transformations dans le plan (Symétries, translation, homothétie)",
-    "level": "TC",
-    "type": "Exercices",
-    "description": "",
-    "url": "",
-    "format": "Video",
-    "semester": 2
-  },
-  {
-    "title": "Géométrie dans l’espace",
-    "level": "TC",
-    "type": "Exercices",
-    "description": "",
-    "url": "",
-    "format": "Video",
-    "semester": 2
-  },
-  {
-    "title": "Statistiques",
-    "level": "TC",
-    "type": "Exercices",
-    "description": "",
-    "url": "",
-    "format": "Video",
+    "format": "vidéo",
     "semester": 2
   }
 ];

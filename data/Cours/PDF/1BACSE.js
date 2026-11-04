@@ -2,24 +2,24 @@
 window.RESOURCES_1BACSE_COURS_PDF = [
  
  {
-    "title": "Logique",
+    "title": " Cours 1 semestre 1 : Logique",
     "level": "1BACSE",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1sMMVH4xZEz5Ri5xyFX5Ocku7_qvxyVed/view?usp=sharing",
     "format": "PDF"
   },
 
   {
-    "title": "Généralités sur les fonctions",
+    "title": " Cours 2semestre 1 : Généralités sur les fonctions",
     "level": "1BACSE",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1Tr_7XVt_jAyH--T9IgQs_BJaDz-LHxnG/view?usp=sharing",
     "format": "PDF"
   },
   {
-    "title": "Barycentre",
+    "title": " Cours 3 semestre 1 : Barycentre",
     "level": "1BACSE",
     "type": "Cours",
     "description": "",
@@ -27,7 +27,7 @@ window.RESOURCES_1BACSE_COURS_PDF = [
     "format": "PDF"
   },
   {
-    "title": "Géométrie analytique du produit scalaire",
+    "title": " Cours 4 semestre 1 : analytique du produit scalaire",
     "level": "1BACSE",
     "type": "Cours",
     "description": "",
@@ -35,19 +35,19 @@ window.RESOURCES_1BACSE_COURS_PDF = [
     "format": "PDF"
   },
   {
-    "title": "Suites numériques",
+    "title": " Cours 5 semestre 1 : Suites numériques",
     "level": "1BACSE",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1CsYxOkfDjYjzktniI4wzgguCwdY7cdDN/view?usp=sharing",
     "format": "PDF"
   },
   {
-    "title": "Trigonométrie",
+    "title": " Cours 6 semestre 1 : Trigonométrie",
     "level": "1BACSE",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1ouR86jxMesQrjl-rUwHHHIE6nI6Rl2qo/view?usp=sharing",
     "format": "PDF"
   },
   {
