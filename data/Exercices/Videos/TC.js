@@ -6,7 +6,7 @@ window.RESOURCES_TC_EXERCICES_VIDEOS = [
     "type": "Exercices",
     "description": "",
     "url": "https://www.youtube.com/watch?v=qzzc05euYTE",
-    "format": "vidéo",
+    "format": "Vidéo",
     "semester": 1
   },
   {
@@ -15,7 +15,7 @@ window.RESOURCES_TC_EXERCICES_VIDEOS = [
     "type": "Exercices",
     "description": "",
     "url": "https://www.youtube.com/watch?v=_kD625DN27Y",
-    "format": "vidéo",
+    "format": "Vidéo",
     "semester": 1
   },
   {
@@ -24,7 +24,7 @@ window.RESOURCES_TC_EXERCICES_VIDEOS = [
     "type": "Exercices",
     "description": "",
     "url": "https://www.youtube.com/watch?v=WArDUCYm5ts",
-    "format": "vidéo",
+    "format": "Vidéo",
     "semester": 1
   },
   {
@@ -33,7 +33,7 @@ window.RESOURCES_TC_EXERCICES_VIDEOS = [
     "type": "Exercices",
     "description": "",
     "url": "https://www.youtube.com/watch?v=elhe0CH1vpc",
-    "format": "vidéo",
+    "format": "Vidéo",
     "semester": 1
   },
 
@@ -46,7 +46,7 @@ window.RESOURCES_TC_EXERCICES_VIDEOS = [
     "type": "Exercices",
     "description": "",
     "url": "",
-    "format": "vidéo",
+    "format": "Vidéo",
     "semester": 2
   }
 ];
