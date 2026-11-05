@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
     const openText = isArabic ? "فتح ملف PDF ↗" : "Ouvrir le PDF ↗";
 
     const safeDocs = Array.isArray(documents)
-      ? documents.filter(doc => doc && doc.title && doc.url && /^https?:\/\//i.test(doc.url))
+      ? documents.filter(doc => doc && doc.title )
       : [];
 
     if (!safeDocs.length) {
@@ -191,7 +191,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       contactEyebrow: "RESTONS EN CONTACT",
       contactTitle: "Une question ou une suggestion ?",
-      contactDesc: "Ajoutez ici votre page Facebook, votre adresse e-mail ou tout autre moyen de contact.",
+      contactDesc: "",
       configure: "Configurer le contact",
       contactUs: "Nous contacter ↗",
       contactAlert: "Le lien de contact n’est pas encore configuré.",
@@ -314,7 +314,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
       contactEyebrow: "ابقَ على تواصل",
       contactTitle: "هل لديك سؤال أو اقتراح؟",
-      contactDesc: "أضف هنا رابط صفحتك على فيسبوك أو بريدك الإلكتروني أو أي وسيلة أخرى للتواصل.",
+      contactDesc: "",
       configure: "إعداد رابط التواصل",
       contactUs: "اتصل بنا ↗",
       contactAlert: "لم يتم إعداد رابط التواصل بعد.",
