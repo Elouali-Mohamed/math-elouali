@@ -1,10 +1,16 @@
+
 document.addEventListener("DOMContentLoaded", () => {
+
+  // =====================================================
+  // عرض الوثائق الخاصة
+  // =====================================================
 
   function renderSpecialDocumentList(containerId, documents, kind) {
     const container = document.getElementById(containerId);
     if (!container) return;
 
     const isArabic = document.documentElement.lang === "ar";
+
     const emptyText = isArabic
       ? "لا توجد ملفات مضافة في هذا القسم حالياً."
       : "Aucun document ajouté dans cette rubrique pour le moment.";
@@ -12,26 +18,38 @@ document.addEventListener("DOMContentLoaded", () => {
     const openText = isArabic ? "فتح ملف PDF ↗" : "Ouvrir le PDF ↗";
 
     const safeDocs = Array.isArray(documents)
-      ? documents.filter(doc => doc && doc.title )
+      ? documents.filter(doc => doc && doc.title)
       : [];
 
     if (!safeDocs.length) {
-      container.innerHTML = `<div class="special-empty"><span aria-hidden="true">📄</span><p>${emptyText}</p></div>`;
+      container.innerHTML = `
+        <div class="special-empty">
+          <span aria-hidden="true">📄</span>
+          <p>${emptyText}</p>
+        </div>`;
       return;
     }
 
     container.innerHTML = safeDocs.map(doc => {
       const title = String(doc.title).replace(/[&<>"']/g, ch => ({
-        "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+        "&": "&amp;",
+        "<": "&lt;",
+        ">": "&gt;",
+        '"': "&quot;",
+        "'": "&#39;"
       }[ch]));
 
       const level = doc.level
         ? String(doc.level).replace(/[&<>"']/g, ch => ({
-            "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"
+            "&": "&amp;",
+            "<": "&lt;",
+            ">": "&gt;",
+            '"': "&quot;",
+            "'": "&#39;"
           }[ch]))
         : (isArabic ? "جميع المستويات" : "Tous les niveaux");
 
-      const url = String(doc.url).replace(/"/g, "%22");
+      const url = String(doc.url || "").replace(/"/g, "%22");
 
       return `
         <article class="special-document-card">
@@ -39,19 +57,58 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="special-document-content">
             <h3>${title}</h3>
             <p>${level}</p>
-            <a href="${url}" target="_blank" rel="noopener noreferrer">${openText}</a>
+            ${
+              url
+                ? `<a href="${url}" target="_blank" rel="noopener noreferrer">${openText}</a>`
+                : `<span>${isArabic ? "الرابط غير متوفر" : "Lien non disponible"}</span>`
+            }
           </div>
         </article>`;
     }).join("");
   }
 
+  // =====================================================
+  // عرض جميع أقسام الوثائق
+  // =====================================================
+
   function renderSpecialSections() {
-    renderSpecialDocumentList("memorandums-list", window.MINISTERIAL_MEMORANDUMS, "memorandums");
-    renderSpecialDocumentList("distributions-list", window.ANNUAL_DISTRIBUTIONS, "distributions");
-    renderSpecialDocumentList("fichiers-pedagogiques-list", window.PEDAGOGICAL_FILES, "pedagogical");
+
+    renderSpecialDocumentList(
+      "memorandums-list",
+      window.MINISTERIAL_MEMORANDUMS,
+      "memorandums"
+    );
+
+    renderSpecialDocumentList(
+      "concours-enseignement-list",
+      window.CONCOURS_ENSEIGNEMENT,
+      "competitions"
+    );
+
+    renderSpecialDocumentList(
+      "examens-professionnels-list",
+      window.EXAMENS_PROFESSIONNELS,
+      "professional"
+    );
+
+    renderSpecialDocumentList(
+      "distributions-list",
+      window.ANNUAL_DISTRIBUTIONS,
+      "distributions"
+    );
+
+    renderSpecialDocumentList(
+      "fichiers-pedagogiques-list",
+      window.PEDAGOGICAL_FILES,
+      "pedagogical"
+    );
   }
 
   renderSpecialSections();
+
+  // =====================================================
+  // عناصر الصفحة
+  // =====================================================
 
   const searchInput = document.getElementById("search-input");
   const levelFilter = document.getElementById("level-filter");
@@ -79,6 +136,14 @@ document.addEventListener("DOMContentLoaded", () => {
   const contactLink = document.getElementById("contact-link");
 
   let currentLang = "fr";
+
+  // =====================================================
+  // أقسام الوثائق الرسمية الثلاثة
+  // =====================================================
+
+  // =====================================================
+  // النصوص الفرنسية والعربية
+  // =====================================================
 
   const text = {
     fr: {
@@ -328,11 +393,22 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   };
 
-  document.getElementById("current-year").textContent = new Date().getFullYear();
+  // =====================================================
+  // السنة الحالية
+  // =====================================================
+
+  const currentYearElement = document.getElementById("current-year");
+
+  if (currentYearElement) {
+    currentYearElement.textContent = new Date().getFullYear();
+  }
 
   function setText(selector, value, html = false) {
     const el = document.querySelector(selector);
-    if (el) html ? el.innerHTML = value : el.textContent = value;
+    if (el) {
+      if (html) el.innerHTML = value;
+      else el.textContent = value;
+    }
   }
 
   // =====================================================
@@ -455,11 +531,7 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
-    if (selectedCategory) {
-      document.getElementById("niveaux").scrollIntoView();
-    } else {
-      document.getElementById("niveaux").scrollIntoView();
-    }
+    document.getElementById("niveaux").scrollIntoView();
   }
 
   // =====================================================
@@ -471,7 +543,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const t = text[currentLang];
 
-    // الاحتفاظ بالاختيارات الحالية عند تغيير اللغة
     const savedCycle = selectedCycle;
     const savedLevel = selectedLevel;
     const savedCategory = selectedCategory;
@@ -485,6 +556,8 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelectorAll("[data-fr][data-ar]").forEach(el => {
       el.textContent = el.dataset[currentLang];
     });
+
+    // تحديث عنوان القسم المختار عند تغيير اللغة
 
     setText(".skip-link", t.skip);
 
@@ -582,7 +655,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.getElementById("selected-cycle-description").textContent = t.levelDescription;
 
-    // إعادة بناء العرض مع الاحتفاظ بالمستوى والقسم والصيغة
     if (savedCycle) {
       showSublevels(savedCycle, false);
 
@@ -682,7 +754,6 @@ document.addEventListener("DOMContentLoaded", () => {
       btn.setAttribute("aria-pressed", String(active));
     });
 
-    // تحديث عوامل التصفية حسب الاختيارات المحفوظة
     if (savedLevel) levelFilter.value = savedLevel;
     if (savedCategory) typeFilter.value = savedCategory;
 
@@ -728,7 +799,6 @@ document.addEventListener("DOMContentLoaded", () => {
   function showSublevels(cycle, updateUrl = true) {
     selectedCycle = cycle;
 
-    // عند تغيير السلك، نمسح الاختيارات السابقة
     selectedLevel = "";
     selectedCategory = "";
     selectedFormat = "";
@@ -831,7 +901,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
   // =====================================================
-  // اختيار الفئة: دروس، تمارين، فروض، امتحانات
+  // اختيار الفئة
   // =====================================================
 
   document.querySelectorAll("[data-resource-category]").forEach(button => {
@@ -855,7 +925,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // =====================================================
-  // اختيار الصيغة: PDF أو فيديو
+  // اختيار الصيغة PDF أو فيديو
   // =====================================================
 
   document.querySelectorAll("[data-resource-format]").forEach(button => {
@@ -878,7 +948,7 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   // =====================================================
-  // أزرار الرجوع
+  // أزرار الرجوع الخاصة بالمستويات
   // =====================================================
 
   backToCategories.addEventListener("click", () => {
@@ -1036,7 +1106,6 @@ document.addEventListener("DOMContentLoaded", () => {
       meta.textContent = [item.level, item.description].filter(Boolean).join(" · ");
 
       const action = document.createElement("span");
-
       action.className = "resource-open";
 
       action.textContent = item.url
@@ -1079,15 +1148,13 @@ document.addEventListener("DOMContentLoaded", () => {
   typeFilter.addEventListener("change", renderResources);
 
   // =====================================================
-  // تشغيل الموقع واسترجاع الرابط
+  // تشغيل الموقع
   // =====================================================
 
   applyLanguage("fr");
 
-  // فتح الصفحة المطلوبة مباشرة حسب الرابط
   restorePageFromUrl();
 
-  // دعم أزرار السابق والتالي في المتصفح
   window.addEventListener("popstate", restorePageFromUrl);
 
 });

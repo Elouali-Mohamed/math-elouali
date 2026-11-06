@@ -57,13 +57,112 @@
     </section>
     <section class="quick-links" aria-label="Accès rapides"><div class="container quick-grid"><a class="quick-card blue" href="#niveaux" data-category-select="primary"><span class="quick-icon">🧒</span><div><h2 data-fr="Primaire" data-ar="التعليم الابتدائي">Primaire</h2><p data-fr="De la 1re à la 6e année primaire" data-ar="من المستوى الأول إلى السادس ابتدائي">De la 1re à la 6e année primaire</p></div><b>›</b></a><a class="quick-card green" href="#niveaux" data-category-select="college"><span class="quick-icon">🎓</span><div><h2 data-fr="Collège" data-ar="التعليم الإعدادي">Collège</h2><p data-fr="1AC, 2AC et 3AC" data-ar="الأولى والثانية والثالثة إعدادي">1AC, 2AC et 3AC</p></div><b>›</b></a><a class="quick-card purple" href="#niveaux" data-category-select="lycee"><span class="quick-icon">📘</span><div><h2 data-fr="Lycée" data-ar="التعليم الثانوي التأهيلي">Lycée</h2><p data-fr="Tronc commun, 1ère Bac et 2ème Bac" data-ar="الجذع المشترك والأولى والثانية باكالوريا">Tronc commun, 1ère Bac et 2ème Bac</p></div><b>›</b></a><a class="quick-card blue" href="#ressources"><span class="quick-icon">▣</span><div><h2 data-fr="Cours" data-ar="الدروس">Cours</h2><p data-fr="Leçons et résumés pour tous les niveaux" data-ar="دروس وملخصات لجميع المستويات">Leçons et résumés pour tous les niveaux</p></div><b>›</b></a><a class="quick-card green" href="#ressources"><span class="quick-icon">✎</span><div><h2 data-fr="Exercices" data-ar="التمارين">Exercices</h2><p data-fr="Entraînez-vous et progressez" data-ar="تدرّب وتقدّم في مستواك">Entraînez-vous et progressez</p></div><b>›</b></a><a class="quick-card pink" href="#ressources"><span class="quick-icon">▤</span><div><h2 data-fr="Examens" data-ar="الامتحانات">Examens</h2><p data-fr="Régionaux, nationaux et devoirs" data-ar="امتحانات جهوية ووطنية وفروض">Régionaux, nationaux et devoirs</p></div><b>›</b></a>
 	<a class="quick-card orange" href="#memorandums"><span class="quick-icon">📜</span><div><h2 data-fr="Notes ministérielles, Concours de l’enseignement et Examens professionnels" data-ar="مذكرات وزارية - مباريات التعليم - مباريات مهنية ">Notes ministérielles, Concours de l’enseignement et Examens professionnels</h2><p data-fr="Documents officiels en PDF" data-ar="وثائق رسمية بصيغة PDF">Documents officiels en PDF</p></div><b>›</b></a>
+	
 	<a class="quick-card purple" href="#distributions"><span class="quick-icon">📅</span><div><h2 data-fr="Répartitions annuelles" data-ar="التوزيعات السنوية">Répartitions annuelles</h2><p data-fr="Répartitions du programme par niveau" data-ar="توزيعات البرنامج حسب المستوى">Répartitions du programme par niveau</p></div><b>›</b></a><a class="quick-card green" href="#fichiers-pedagogiques"><span class="quick-icon">📂</span><div><h2 data-fr="Fichiers pédagogiques" data-ar="Fichiers pédagogiques">Fichiers pédagogiques</h2><p data-fr="Documents pédagogiques par niveau" data-ar="وثائق تربوية حسب المستوى">Documents pédagogiques par niveau</p></div><b>›</b></a><a class="quick-card purple" href="#apropos"><span class="quick-icon">ⓘ</span><div><h2 data-fr="À propos" data-ar="من نحن">À propos</h2><p data-fr="Notre mission et nos valeurs" data-ar="رسالتنا وقيمنا">Notre mission et nos valeurs</p></div><b>›</b></a></div></section>
-  <section class="section special-documents-section" id="memorandums">
-    <div class="container">
-      <div class="section-heading"><p class="eyebrow" data-fr="DOCUMENTS OFFICIELS" data-ar="وثائق رسمية">DOCUMENTS OFFICIELS</p><h2 data-fr="Notes ministérielles – Concours de l’enseignement – Examens professionnels" data-ar="مذكرات وزارية -مباريات التعليم -مباريات مهنية ">Notes ministérielles – Concours de l’enseignement – Examens professionnels</h2><p data-fr="Consultez et ouvrez les mémorandums ministériels en PDF." data-ar="تصفح وافتح المذكرات الوزارية بصيغة PDF.">Consultez et ouvrez les mémorandums ministériels en PDF.</p></div>
-      <div class="special-documents-grid" id="memorandums-list" aria-live="polite"></div>
+ 
+ 
+<section class="section special-documents-section" id="memorandums">
+  <div class="container">
+
+    <div class="section-heading">
+      <p class="eyebrow"
+         data-fr="DOCUMENTS OFFICIELS"
+         data-ar="وثائق رسمية">DOCUMENTS OFFICIELS</p>
+
+      <h2
+        data-fr="Mémorandums et concours"
+        data-ar="المذكرات والمباريات">Mémorandums et concours</h2>
+
+      <p
+        data-fr="Choisissez une rubrique pour consulter ses documents."
+        data-ar="اختر القسم للاطلاع على الوثائق الخاصة به.">
+        Choisissez une rubrique pour consulter ses documents.
+      </p>
     </div>
-  </section>
+
+    <!-- واجهة الأقسام الثلاثة -->
+    <div class="level-grid cycle-grid" id="special-categories-panel">
+
+      <button class="level-card cycle-card"
+              type="button"
+              data-special-category="memorandums">
+        <span class="level-icon">📜</span>
+        <span class="level-number">01</span>
+        <h3 data-fr="Mémorandums ministériels"
+            data-ar="المذكرات الوزارية">Mémorandums ministériels</h3>
+        <p data-fr="Notes et documents officiels"
+           data-ar="مذكرات ووثائق رسمية">Notes et documents officiels</p>
+        <span class="card-arrow">Explorer ↗</span>
+      </button>
+
+      <button class="level-card cycle-card"
+              type="button"
+              data-special-category="concours">
+        <span class="level-icon">🎓</span>
+        <span class="level-number">02</span>
+        <h3 data-fr="Concours de l’enseignement"
+            data-ar="مباريات التعليم">Concours de l’enseignement</h3>
+        <p data-fr="Concours et leurs corrections"
+           data-ar="مباريات التعليم وتصحيحاتها">Concours et leurs corrections</p>
+        <span class="card-arrow">Explorer ↗</span>
+      </button>
+
+      <button class="level-card cycle-card"
+              type="button"
+              data-special-category="professional">
+        <span class="level-icon">📝</span>
+        <span class="level-number">03</span>
+        <h3 data-fr="Examens professionnels"
+            data-ar="الامتحانات المهنية">Examens professionnels</h3>
+        <p data-fr="Examens et corrections"
+           data-ar="الامتحانات المهنية وتصحيحاتها">Examens et corrections</p>
+        <span class="card-arrow">Explorer ↗</span>
+      </button>
+
+    </div>
+
+    <!-- واجهة نتائج القسم المختار -->
+    <div id="special-results-panel" hidden>
+
+      <div class="level-detail-heading">
+        <button class="button button-secondary"
+                id="back-to-special-categories"
+                type="button">
+          ← Retour aux rubriques
+        </button>
+
+        <div>
+          <p class="eyebrow" id="special-selected-eyebrow">
+            DOCUMENTS OFFICIELS
+          </p>
+          <h2 id="special-selected-title">Documents</h2>
+          <p id="special-selected-description">
+            Consultez les documents disponibles.
+          </p>
+        </div>
+      </div>
+
+      <div class="special-documents-grid"
+           id="memorandums-list"
+           aria-live="polite"></div>
+
+      <div class="special-documents-grid"
+           id="concours-enseignement-list"
+           aria-live="polite"
+           hidden></div>
+
+      <div class="special-documents-grid"
+           id="examens-professionnels-list"
+           aria-live="polite"
+           hidden></div>
+
+    </div>
+
+  </div>
+</section>
+
+
+  
   <section class="section special-documents-section section-soft" id="distributions">
     <div class="container">
       <div class="section-heading"><p class="eyebrow" data-fr="ORGANISATION DES APPRENTISSAGES" data-ar="تنظيم التعلمات">ORGANISATION DES APPRENTISSAGES</p><h2 data-fr="Répartitions annuelles" data-ar="التوزيعات السنوية">Répartitions annuelles</h2><p data-fr="Retrouvez les répartitions annuelles par niveau scolaire." data-ar="اعثر على التوزيعات السنوية حسب المستوى الدراسي.">Retrouvez les répartitions annuelles par niveau scolaire.</p></div>
@@ -184,6 +283,7 @@
   <footer class="site-footer">
     <div class="container footer-inner"><span>🇲🇦 Maroc • Ensemble pour la réussite</span><a class="footer-brand" href="#accueil">Math pour Collège et Lycée</a><p>Pr. ELOUALI MOHAMED</p><p class="footer-facebook"><span class="facebook-icon" aria-hidden="true">f</span><a href="https://www.facebook.com/profile.php?id=61551624256935" target="_blank" rel="noopener noreferrer" aria-label="Ouvrir la page Facebook Math pour Collège et Lycée">Facebook : Math pour Collège et Lycée</a></p><p>© <span id="current-year"></span> Tous droits réservés.</p></div>
   </footer>
+ 
   <script src="data/Cours/PDF/1AEP.js"></script>
   <script src="data/Cours/Videos/1AEP.js"></script>
   <script src="data/Exercices/PDF/1AEP.js"></script>
@@ -440,10 +540,23 @@
   <script src="data/Devoirs/Videos/2BACSVTPC.js"></script>
   <script src="data/Examens/PDF/2BACSVTPC.js"></script>
   <script src="data/Examens/Videos/2BACSVTPC.js"></script>
-  <script src="data/memorandums.js"></script>
-  <script src="data/distributions-annuelles.js"></script>
-  <script src="data/fichiers-pedagogiques.js"></script>
-  <script src="data.js"></script>
-  <script src="script.js"></script>
+  <!-- ملفات بيانات الوثائق -->
+<script src="data/memorandums.js"></script>
+<script src="data/concours.js"></script>
+<script src="data/examens-professionnels.js"></script>
+
+<!-- ملفات البيانات الأخرى -->
+<script src="data/distributions-annuelles.js"></script>
+<script src="data/fichiers-pedagogiques.js"></script>
+<script src="data.js"></script>
+
+<!-- ملفات عرض الأقسام المستقلة -->
+<script src="data/memorandums-view.js"></script>
+<script src="data/concours-view.js"></script>
+<script src="data/examens-professionnels-view.js"></script>
+
+<!-- الملف الرئيسي -->
+<script src="script.js"></script>
+
 </body>
 </html>
