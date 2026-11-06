@@ -198,91 +198,81 @@ window.MINISTERIAL_MEMORANDUMS = [
 {
     "title": "مباراة التعليم الثانوي - الرياضيات - دورة 2019",
     "level": "Tous les niveaux",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1OGWQeDQDLxZ-NhEiEeJOsMqcmiXMbxI_/view?usp=sharing",
 },
 {
     "title": "تصحيح مباراة التعليم الثانوي - الرياضيات - دورة 2019",
     "level": "Tous les niveaux",
-    "url": "",
-},
-{
-    "title": "مباراة التعليم الثانوي - ديداكتيك الرياضيات - دورة 2019",
-    "level": "Tous les niveaux",
-    "url": "",
-},
-{
-    "title": "تصحيح مباراة التعليم الثانوي - ديداكتيك الرياضيات - دورة 2019",
-    "level": "Tous les niveaux",
-    "url": "",
+    "url": "https://drive.google.com/file/d/179fjPCUYvHTUWURPqLCzSaVxZE8f7p_I/view?usp=sharing",
 },
 
 {
-    "title": "مباراة التعليم الثانوي - الرياضيات - دورة 25 نونبر 2020",
+    "title": "تصحيح مباراة التعليم الثانوي - ديداكتيك الرياضيات - دورة 2019",
     "level": "Tous les niveaux",
-    "url": "",
+    "url": "https://drive.google.com/file/d/17NDO313WuIbS2E93tEi1fQAp-AgEEQeu/view?usp=sharing",
+},
+
+
+{
+    "title": "مباراة التعليم الثانوي - ديداكتيك الرياضيات - دورة   2020",
+    "level": "Tous les niveaux",
+    "url": "https://drive.google.com/file/d/1RMP-J4UyPwvpVwVOJIV7b6o_dZGqMaDK/view?usp=sharing",
 },
 {
-    "title": "تصحيح مباراة التعليم الثانوي - الرياضيات - دورة 25 نونبر 2020",
+    "title": "تصحيح مباراة التعليم الثانوي - ديداكتيك الرياضيات - دورة  2020",
     "level": "Tous les niveaux",
-    "url": "",
+    "url": "https://drive.google.com/file/d/139Hy9csVAt_uedGZpsVJksDoNkYBDKQs/view?usp=sharing",
 },
+
+
 {
-    "title": "مباراة التعليم الثانوي - ديداكتيك الرياضيات - دورة 25 نونبر 2020",
+    "title": "مباراة التعليم الثانوي - ديداكتيك الرياضيات - دورة 2020",
     "level": "Tous les niveaux",
-    "url": "",
-},
-{
-    "title": "تصحيح مباراة التعليم الثانوي - ديداكتيك الرياضيات - دورة 25 نونبر 2020",
-    "level": "Tous les niveaux",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1igT3yM4Ojwsky1gSVrQabQthHjbnk751/view?usp=sharing",
 },
 
 {
     "title": "مباراة التعليم الثانوي - الرياضيات - دورة 2021",
     "level": "Tous les niveaux",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1-wcSEFTXvXD4q3wCMxzGhUxaHgwAVr7b/view?usp=sharing",
 },
 {
     "title": "تصحيح مباراة التعليم الثانوي - الرياضيات - دورة 2021",
     "level": "Tous les niveaux",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1ZzTmXaU8ZHsnflJq8oQPgaKjbhWkS3im/view?usp=sharing",
 },
 {
     "title": "مباراة التعليم الثانوي - ديداكتيك الرياضيات - دورة 2021",
     "level": "Tous les niveaux",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1akjVDttNhsKMBBqja48A1Ljd2kuvu0Up/view?usp=sharing",
 },
 {
     "title": "تصحيح مباراة التعليم الثانوي - ديداكتيك الرياضيات - دورة 2021",
     "level": "Tous les niveaux",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1oMm2wnFeS7feKB_Pj3f3_coC9vwQ3neC/view?usp=sharing",
 },
 
 {
     "title": "مباراة التعليم الثانوي - الرياضيات - دورة 2022",
     "level": "Tous les niveaux",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1qpelhfjMq_6zzwF-dWJBOlm5qP86Nez8/view?usp=sharing",
 },
 {
     "title": "تصحيح مباراة التعليم الثانوي - الرياضيات - دورة 2022",
     "level": "Tous les niveaux",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1_Ex7Yethwnq2fcrIuvafNHMO02mQQ1eG/view?usp=sharing",
 },
 {
     "title": "مباراة التعليم الثانوي - ديداكتيك الرياضيات - دورة 2022",
     "level": "Tous les niveaux",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1rTdVp8YZ7YYPLNeMnuZHqfAuqizx11TX/view?usp=sharing",
 },
-{
-    "title": "تصحيح مباراة التعليم الثانوي - ديداكتيك الرياضيات - دورة 2022",
-    "level": "Tous les niveaux",
-    "url": "",
-},
+
 
 {
     "title": "مباراة التعليم الثانوي - الرياضيات - دورة 2023",
     "level": "Tous les niveaux",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1j0Gex1GvzwB3ThbTRrhIcfG660vykIxP/view?usp=sharing",
 },
 {
     "title": "تصحيح مباراة التعليم الثانوي - الرياضيات - دورة 2023",
@@ -292,54 +282,80 @@ window.MINISTERIAL_MEMORANDUMS = [
 {
     "title": "مباراة التعليم الثانوي - ديداكتيك الرياضيات - دورة 2023",
     "level": "Tous les niveaux",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1-EeaWYhIGR7MTZKihEIaMgfItGk1WsCL/view?usp=sharing",
+},
+
+
+{
+    "title": "مباراة التعليم الثانوي - الرياضيات - دورة أبريل 2024",
+    "level": "Tous les niveaux",
+    "url": "https://drive.google.com/file/d/14UfNyMxHNITInskFT3PTlM9re-cRhclk/view?usp=sharing",
 },
 {
-    "title": "تصحيح مباراة التعليم الثانوي - ديداكتيك الرياضيات - دورة 2023",
+    "title": "تصحيح مباراة التعليم الثانوي - الرياضيات - دورة أبريل 2024",
     "level": "Tous les niveaux",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1BCgdFLkq4b0QYVmj_l6ts7cMIl-tYVP2/view?usp=sharing",
+},
+{
+    "title": "مباراة التعليم الثانوي - ديداكتيك الرياضيات - دورة أبريل 2024",
+    "level": "Tous les niveaux",
+    "url": "https://drive.google.com/file/d/1-1jNav6W48QIKjJu-Is1-ZXmpLT6wc7H/view?usp=sharing",
+},
+{
+    "title": "تصحيح مباراة التعليم الثانوي - ديداكتيك الرياضيات - دورة أبريل 2024",
+    "level": "Tous les niveaux",
+    "url": "https://drive.google.com/file/d/1HjnxbP15BSnKDTbvtL7C5rOc_dWiryGy/view?usp=sharing",
 },
 
 {
-    "title": "مباراة التعليم الثانوي - الرياضيات - دورة 2024",
+    "title": "مباراة التعليم الثانوي - الرياضيات - دورة فبراير 2024",
     "level": "Tous les niveaux",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1HjnxbP15BSnKDTbvtL7C5rOc_dWiryGy/view?usp=sharing",
 },
 {
-    "title": "تصحيح مباراة التعليم الثانوي - الرياضيات - دورة 2024",
+    "title": "تصحيح مباراة التعليم الثانوي - الرياضيات - دورة فبراير 2024",
     "level": "Tous les niveaux",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1bsfR8FsgP-sPEa7hpveEPboH6xHgrYEv/view?usp=sharing",
 },
 {
-    "title": "مباراة التعليم الثانوي - ديداكتيك الرياضيات - دورة 2024",
+    "title": "مباراة التعليم الثانوي - ديداكتيك الرياضيات - دورة فبراير 2024",
     "level": "Tous les niveaux",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1QEcDYuUu-wJ9S4ocwoJWUnu0ad6-7pzl/view?usp=sharing",
 },
 {
-    "title": "تصحيح مباراة التعليم الثانوي - ديداكتيك الرياضيات - دورة 2024",
+    "title": "تصحيح مباراة التعليم الثانوي - ديداكتيك الرياضيات - دورة فبراير 2024",
     "level": "Tous les niveaux",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1s2waVX-oGwUAyMkE2uAhxYvudRA9AcsF/view?usp=sharing",
 },
+
+
 
 {
     "title": "مباراة التعليم الثانوي - الرياضيات - دورة 2025",
     "level": "Tous les niveaux",
-    "url": "",
+    "url": "https://drive.google.com/file/d/18AB2E57Tkxe6MyZMwHBLqm-1IxCcOLJ-/view?usp=sharing",
 },
 {
     "title": "تصحيح مباراة التعليم الثانوي - الرياضيات - دورة 2025",
     "level": "Tous les niveaux",
-    "url": "",
+    "url": "https://drive.google.com/file/d/14Y7YN2wyuY0rvN9GmLaxJlt7YjZij_js/view?usp=sharing",
 },
 {
     "title": "مباراة التعليم الثانوي - ديداكتيك الرياضيات - دورة 2025",
     "level": "Tous les niveaux",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1OEDfRqizULw5tW-GSzKA9PstdMtn2Jdi/view?usp=sharing",
 },
 {
-    "title": "تصحيح مباراة التعليم الثانوي - ديداكتيك الرياضيات - دورة 2025",
+    "title": "تصحيح مباراة التعليم الثانوي - ديداكتيك الرياضيات - دورة 2025 نسخة بالفرنسية ",
     "level": "Tous les niveaux",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1dgM99wU86J0Pt9FE8f1G1BX5RcobpMuD/view?usp=sharing",
+},
+
+
+{
+    "title": "تصحيح مباراة التعليم الثانوي - ديداكتيك الرياضيات - دورة 2025 نسخة بالعربية ",
+    "level": "Tous les niveaux",
+    "url": "https://drive.google.com/file/d/1kFAz9S8tuAHVSgPnGY7trjoR7W2a4JRA/view?usp=sharing",
 },
 
 
