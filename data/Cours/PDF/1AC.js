@@ -5,7 +5,7 @@ window.RESOURCES_1AC_COURS_PDF = [
     "level": "1AC",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1Sgj5IYaJksZ1YBu_qdQlMCf180UuCnwS/view?usp=sharing",
     "format": "PDF",
     "semester": 1
   },
@@ -14,7 +14,7 @@ window.RESOURCES_1AC_COURS_PDF = [
     "level": "1AC",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1DqACpKKM6jduaU4HpzH4KiVAe0smBMPx/view?usp=sharing",
     "format": "PDF",
     "semester": 1
   },
@@ -23,7 +23,7 @@ window.RESOURCES_1AC_COURS_PDF = [
     "level": "1AC",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1O6xGQRMvyYQmz0gnKqqBezN8-5zgaMSO/view?usp=sharing",
     "format": "PDF",
     "semester": 1
   },
@@ -32,7 +32,7 @@ window.RESOURCES_1AC_COURS_PDF = [
     "level": "1AC",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1WEN47wIRFtmUMvNnOahfCd86EITLKhwm/view?usp=sharing",
     "format": "PDF",
     "semester": 1
   },
@@ -41,7 +41,7 @@ window.RESOURCES_1AC_COURS_PDF = [
     "level": "1AC",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1aJFnw3hmYgJi3gZppcOaYe57QnKdqIUu/view?usp=sharing",
     "format": "PDF",
     "semester": 1
   },
@@ -50,7 +50,7 @@ window.RESOURCES_1AC_COURS_PDF = [
     "level": "1AC",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1ZxbJFuOjGFBCW7PZyNho0Fkz4zRXIxaO/view?usp=sharing",
     "format": "PDF",
     "semester": 1
   },
@@ -59,7 +59,7 @@ window.RESOURCES_1AC_COURS_PDF = [
     "level": "1AC",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1CcLAfnAT2MBO3LVfQ5PVrwer336QJfqg/view?usp=sharing",
     "format": "PDF",
     "semester": 1
   },
@@ -68,7 +68,7 @@ window.RESOURCES_1AC_COURS_PDF = [
     "level": "1AC",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1EfVGcYsdl-DNftDlokfHktrLNjOELivd/view?usp=sharing",
     "format": "PDF",
     "semester": 1
   },
@@ -77,7 +77,7 @@ window.RESOURCES_1AC_COURS_PDF = [
     "level": "1AC",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1fFFIbTvysIMkzJEWXxBZ6UZrtOREKDuT/view?usp=sharing",
     "format": "PDF",
     "semester": 2
   },
@@ -86,7 +86,7 @@ window.RESOURCES_1AC_COURS_PDF = [
     "level": "1AC",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1tTvDVDE9NBVoTtn2xQqr6mZr8pje-APg/view?usp=sharing",
     "format": "PDF",
     "semester": 2
   },
@@ -95,7 +95,7 @@ window.RESOURCES_1AC_COURS_PDF = [
     "level": "1AC",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1utZeT3_tZAV3xb9TYC6oeV0IvaZCQ_-O/view?usp=sharing",
     "format": "PDF",
     "semester": 2
   },
@@ -104,7 +104,7 @@ window.RESOURCES_1AC_COURS_PDF = [
     "level": "1AC",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1rbEMKjXeyfAPVJVtvNgou1nxxzfR08YT/view?usp=sharing",
     "format": "PDF",
     "semester": 2
   },
@@ -113,7 +113,7 @@ window.RESOURCES_1AC_COURS_PDF = [
     "level": "1AC",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1T_QnKMk2I_CaYSSaPjI3Bh7dK2-h-SE_/view?usp=sharing",
     "format": "PDF",
     "semester": 2
   },
@@ -122,7 +122,7 @@ window.RESOURCES_1AC_COURS_PDF = [
     "level": "1AC",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/13XSsR1ScOacY87pOSw_etJ-xs0OHCORR/view?usp=sharing",
     "format": "PDF",
     "semester": 2
   },
@@ -131,7 +131,7 @@ window.RESOURCES_1AC_COURS_PDF = [
     "level": "1AC",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1HN4-6QUhLG3VeU8ICxkRSLWCdkXQqdhh/view?usp=sharing",
     "format": "PDF",
     "semester": 2
   },
@@ -140,7 +140,7 @@ window.RESOURCES_1AC_COURS_PDF = [
     "level": "1AC",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1PTOQOkqkGIpoOeJs_73g4p0F-137SJsu/view?usp=sharing",
     "format": "PDF",
     "semester": 2
   },
@@ -149,7 +149,7 @@ window.RESOURCES_1AC_COURS_PDF = [
     "level": "1AC",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1emdc-1rBymieM-dfQ3zrcKF5cemjxuEM/view?usp=sharing",
     "format": "PDF",
     "semester": 2
   },
@@ -158,7 +158,7 @@ window.RESOURCES_1AC_COURS_PDF = [
     "level": "1AC",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1emdc-1rBymieM-dfQ3zrcKF5cemjxuEM/view?usp=sharing",
     "format": "PDF",
     "semester": 2
   },
@@ -167,7 +167,7 @@ window.RESOURCES_1AC_COURS_PDF = [
     "level": "1AC",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1kTiG7sE_opSFpke7GOTNhjV1pofBCIvd/view?usp=sharing",
     "format": "PDF",
     "semester": 2
   }
