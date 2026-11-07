@@ -11,7 +11,7 @@ window.RESOURCES_1BACSE_COURS_PDF = [
   },
 
   {
-    "title": " Cours 2semestre 1 : Généralités sur les fonctions",
+    "title": " Cours 2 semestre 1 : Généralités sur les fonctions",
     "level": "1BACSE",
     "type": "Cours",
     "description": "",
@@ -51,51 +51,51 @@ window.RESOURCES_1BACSE_COURS_PDF = [
     "format": "PDF"
   },
   {
-    "title": "Limites",
+    "title": " Cours 1  semestre 2 :  Limites",
     "level": "1BACSE",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": " https://drive.google.com/file/d/1QCaf1SSxXIlMta0bOawoGGzoYydp7Hmd/view?usp=sharing ",
     "format": "PDF"
   },
   {
-    "title": "Rotation",
+    "title": " Cours 2 semestre 2 : Rotation",
     "level": "1BACSE",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1qwVO9YHYu3NjdGkwNvXHdcsoQlPR8iX6/view?usp=sharing",
     "format": "PDF"
   },
   {
-    "title": "Dérivation",
+    "title": " Cours 3 semestre 2 : Dérivation",
     "level": "1BACSE",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1p8LheEYV8LsjEUseuV6bTsGcHrT6LyHB/view?usp=sharing",
     "format": "PDF"
   },
   {
-    "title": "Vecteurs de l’espace",
+    "title": " Cours 4  semestre 2 : Vecteurs de l’espace",
     "level": "1BACSE",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1aoGF0nZ1tLU-bFF7jZOoelnHwjEjf34P/view?usp=sharing",
     "format": "PDF"
   },
   {
-    "title": "Étude et représentation des fonctions",
+    "title": " Cours 5  semestre 2 : Étude et représentation des fonctions",
     "level": "1BACSE",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1x5d4tlyDZR1HDgLmB9E9XPLgAg0IQLi0/view?usp=sharing",
     "format": "PDF"
   },
   {
-    "title": "Géométrie analytique dans l’espace",
+    "title": " Cours 6 semestre 2 : Géométrie analytique dans l’espace",
     "level": "1BACSE",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1SwD7jc6e0fz_kucdzG0Io6UOWPVWpbsw/view?usp=sharing",
     "format": "PDF"
   }
 ];
