@@ -1,51 +1,66 @@
 /* Cours — PDF — niveau Tronc Commun Lettres. Les titres sont préremplis; les liens restent vides dans url. */
 window.RESOURCES_TCL_COURS_PDF = [
   {
-    "title": "Calcul numérique (Ensembles de nombres, opérations, puissances et racines carrées)",
+    "title": "Calcul numérique : Les opérations sur R ",
     "level": "TCL",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/12OeJJ_fXpXzu3cFUqUQLaVrze-EbNrX3/view?usp=sharing",
     "format": "PDF"
   },
-  {
-    "title": "Proportionnalité (Pourcentages, règle de trois)",
+  
+   {
+    "title": "Calcul numérique : L'ordre dans R",
     "level": "TCL",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1uT5tKTfHHJquWT866LnwVsyHQTrs0kma/view?usp=sharing",
     "format": "PDF"
   },
-  {
-    "title": "Ordre dans l’ensemble des réels ℝ",
+
+   {
+    "title": "Calcul numérique : Les équations et inéquation et les sysytèmes ",
     "level": "TCL",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/134ITkDyZdMBjxOHsS4lDeLfQdmeWo1e6/view?usp=sharing",
     "format": "PDF"
   },
-  {
-    "title": "Équations, inéquations et systèmes",
-    "level": "TCL",
-    "type": "Cours",
-    "description": "",
-    "url": "",
-    "format": "PDF"
-  },
+ 
+ 
+ 
   {
     "title": "Statistiques",
     "level": "TCL",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1v4_ID4j9riyZ5GlqVc_DKzYFKWC3gEml/view?usp=sharing",
     "format": "PDF"
   },
-  {
-    "title": "Généralités sur les fonctions numériques",
+
+   {
+    "title": "Géométrie dans l'espace :  Le repère dans le plan",
     "level": "TCL",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/16XLvUxl3WyneC4ty5HqAa9SSguUMRXtX/view?usp=sharing",
+    "format": "PDF"
+  },
+  {
+    "title": "Géométrie dans l'espace : La droite dans le plan",
+    "level": "TCL",
+    "type": "Cours",
+    "description": "",
+    "url": "https://drive.google.com/file/d/1Ywc3xlUCfERvvmLExZ38e4I_tOmS3e27/view?usp=sharing",
+    "format": "PDF"
+  },
+
+  {
+    "title": "Les fonctions numériques",
+    "level": "TCL",
+    "type": "Cours",
+    "description": "",
+    "url": "https://drive.google.com/file/d/1fViLb0u_FPlO69MlJZwtluzZrLb1mwVW/view?usp=sharing",
     "format": "PDF"
   }
 ];
