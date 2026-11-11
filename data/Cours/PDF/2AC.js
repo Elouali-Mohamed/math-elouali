@@ -91,11 +91,11 @@ window.RESOURCES_2AC_COURS_PDF = [
     "semester": 2
   },
   {
-    "title": "Triangle rectangle et cercle",
+    "title": "Triangle rectangle et cercle  ",
     "level": "2AC",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1l2aSMyxzmHB_Z-3hiGJZZLPXgNePokNK/view?usp=sharing",
     "format": "PDF",
     "semester": 2
   },
@@ -113,7 +113,7 @@ window.RESOURCES_2AC_COURS_PDF = [
     "level": "2AC",
     "type": "Cours",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1EwKSobrsb9RhTrEfgR5YCSE4MhD7U7Vc/view?usp=sharing",
     "format": "PDF",
     "semester": 2
   },
