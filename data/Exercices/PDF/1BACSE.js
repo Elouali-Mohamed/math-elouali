@@ -39,6 +39,27 @@ window.RESOURCES_1BACSE_EXERCICES_PDF = [
     "format": "PDF"
   },
 
+
+  {
+    "title": " Serié des exercices : Les suites numériques",
+    "level": "1BACSE",
+    "type": "Exercices",
+    "description": "",
+    "url": "https://drive.google.com/file/d/1v36l1jqb0lchPagjGAwjZOeTuU2vvNmZ/view?usp=sharing",
+    "format": "PDF"
+  },
+ {
+    "title": " Solutions de Serié des exercices : Les suites numériques",
+    "level": "1BACSE",
+    "type": "Exercices",
+    "description": "",
+    "url": "https://drive.google.com/file/d/1EzvLSUR3rBWW0fUHaGGNtRBQLAtR_aK0/view?usp=sharing",
+    "format": "PDF"
+  },
+
+
+
+
   {
     "title": "",
     "level": "1BACSE",
