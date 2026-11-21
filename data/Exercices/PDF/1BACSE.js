@@ -1,6 +1,49 @@
 /* Exercices — PDF — niveau 1BAC Sciences Expérimentales. Les titres sont préremplis; les liens restent vides dans url. */
 window.RESOURCES_1BACSE_EXERCICES_PDF = [
  
+ {
+    "title": "Serié des exercices : Notion logique",
+    "level": "1BACSE",
+    "type": "Exercices",
+    "description": "",
+    "url": "https://drive.google.com/file/d/1HNAyIqzEHG5RgPRRQXdw_aX0u01q0Vge/view?usp=sharing",
+    "format": "PDF"
+  };
+
+   {
+    "title": " Solutions  de serié des exercices : Notion logique",
+    "level": "1BACSE",
+    "type": "Exercices",
+    "description": "",
+    "url": "https://drive.google.com/file/d/1Xo-QgHKiq0WFZZUVWtz2MnqM9TOXZwrw/view?usp=sharing",
+    "format": "PDF"
+  };
+
+   {
+    "title": "Serié des exercices :",
+    "level": "1BACSE",
+    "type": "Exercices",
+    "description": "",
+    "url": "",
+    "format": "PDF"
+  };
+
+   {
+    "title": "Serié des exercices :",
+    "level": "1BACSE",
+    "type": "Exercices",
+    "description": "",
+    "url": "",
+    "format": "PDF"
+  };
+
+
+
+
+
+
+
+
 
   {
     "title": " Serié des exercices : Barycentre",

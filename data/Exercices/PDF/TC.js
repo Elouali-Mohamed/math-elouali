@@ -1,25 +1,95 @@
 /* Exercices — PDF — niveau Tronc Commun Sciences. Les titres sont préremplis; les liens restent vides dans url. */
 window.RESOURCES_TC_EXERCICES_PDF = [
   {
-    "title": "Arithmétique dans ℕ",
+    "title": " Série des exercices : Arithmétique dans ℕ",
     "level": "TC",
     "type": "Exercices",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1QtDj1hOnwaWtfNTSsfJmY_V_8Klk3aRK/view?usp=sharing",
     "format": "PDF",
     "semester": 1
   },
+
+   {
+    "title": " Solutions de série des exercices : Arithmétique dans ℕ",
+    "level": "TC",
+    "type": "Exercices",
+    "description": "",
+    "url": "https://drive.google.com/file/d/16lDjp2hV_XxHbHZiNvvyehEiCP9dWpZS/view?usp=sharing",
+    "format": "PDF",
+    "semester": 1
+  },
+
+
+
+
   {
-    "title": "Les ensembles de nombres (ℕ, ℤ, 𝔻, ℚ, ℝ)",
+    "title": "Série des exercices : Les ensembles de nombres (ℕ, ℤ, 𝔻, ℚ, ℝ)",
     "level": "TC",
     "type": "Exercices",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/1dMuChib5nagSWGUAw_8UgOZrjqK1nk7-/view?usp=sharing",
     "format": "PDF",
     "semester": 1
   },
+
+    {
+    "title": "Solutions de série des exercices : Les ensembles de nombres (ℕ, ℤ, 𝔻, ℚ, ℝ)",
+    "level": "TC",
+    "type": "Exercices",
+    "description": "",
+    "url": "https://drive.google.com/file/d/1dMuChib5nagSWGUAw_8UgOZrjqK1nk7-/view?usp=sharing",
+    "format": "PDF",
+    "semester": 1
+  },
+
+
+ {
+    "title": " Série des exercices : Calcul vectoriel dans le plan",
+    "level": "TC",
+    "type": "Exercices",
+    "description": "",
+    "url": "https://drive.google.com/file/d/187v7YBTAFfm1OBOpYS_TPJ5XeYoPzTXK/view?usp=sharing",
+    "format": "PDF",
+    "semester": 1
+  },
+
+   {
+    "title": " Solutions de série des exercices : Calcul vectoriel dans le plan",
+    "level": "TC",
+    "type": "Exercices",
+    "description": "",
+    "url": "https://drive.google.com/file/d/187v7YBTAFfm1OBOpYS_TPJ5XeYoPzTXK/view?usp=sharing",
+    "format": "PDF",
+    "semester": 1
+  },
+
+
+ {
+    "title": "Série des exercices : La projection dans le plan",
+    "level": "TC",
+    "type": "Exercices",
+    "description": "",
+    "url": "https://drive.google.com/file/d/1XzdF-707CsgQlr7VrQafLKTk2uJcNoMu/view?usp=sharing",
+    "format": "PDF",
+    "semester": 1
+  },
+
+
+ {
+    "title": "Solutions de série des exercices : La projection dans le plan",
+    "level": "TC",
+    "type": "Exercices",
+    "description": "",
+    "url": "https://drive.google.com/file/d/1dMuChib5nagSWGUAw_8UgOZrjqK1nk7-/view?usp=sharing",
+    "format": "PDF",
+    "semester": 1
+  },
+
+
+
   {
-    "title": "L’ordre dans ℝ",
+    "title": "La droite dans le plan",
     "level": "TC",
     "type": "Exercices",
     "description": "",
@@ -27,6 +97,32 @@ window.RESOURCES_TC_EXERCICES_PDF = [
     "format": "PDF",
     "semester": 1
   },
+
+
+  {
+    "title": " Série des exercices : L’ordre dans ℝ",
+    "level": "TC",
+    "type": "Exercices",
+    "description": "",
+    "url": "https://drive.google.com/file/d/1dMuChib5nagSWGUAw_8UgOZrjqK1nk7-/view?usp=sharing",
+    "format": "PDF",
+    "semester": 1
+  },
+
+   {
+    "title": " Solutions de série des exercices : L’ordre dans ℝ",
+    "level": "TC",
+    "type": "Exercices",
+    "description": "",
+    "url": "https://drive.google.com/file/d/1dMuChib5nagSWGUAw_8UgOZrjqK1nk7-/view?usp=sharing",
+    "format": "PDF",
+    "semester": 1
+  },
+
+
+
+
+
   {
     "title": "Les polynômes",
     "level": "TC",
@@ -45,33 +141,8 @@ window.RESOURCES_TC_EXERCICES_PDF = [
     "format": "PDF",
     "semester": 1
   },
-  {
-    "title": "Calcul vectoriel dans le plan",
-    "level": "TC",
-    "type": "Exercices",
-    "description": "",
-    "url": "",
-    "format": "PDF",
-    "semester": 1
-  },
-  {
-    "title": "La projection dans le plan",
-    "level": "TC",
-    "type": "Exercices",
-    "description": "",
-    "url": "",
-    "format": "PDF",
-    "semester": 1
-  },
-  {
-    "title": "La droite dans le plan",
-    "level": "TC",
-    "type": "Exercices",
-    "description": "",
-    "url": "",
-    "format": "PDF",
-    "semester": 1
-  },
+ 
+ 
   {
     "title": "Trigonométrie 1 (Généralités et calcul trigonométrique)",
     "level": "TC",
