@@ -8,7 +8,7 @@ window.RESOURCES_1BACSE_EXERCICES_PDF = [
     "description": "",
     "url": "https://drive.google.com/file/d/1HNAyIqzEHG5RgPRRQXdw_aX0u01q0Vge/view?usp=sharing",
     "format": "PDF"
-  };
+  },
 
    {
     "title": " Solutions  de serié des exercices : Notion logique",
@@ -17,25 +17,25 @@ window.RESOURCES_1BACSE_EXERCICES_PDF = [
     "description": "",
     "url": "https://drive.google.com/file/d/1Xo-QgHKiq0WFZZUVWtz2MnqM9TOXZwrw/view?usp=sharing",
     "format": "PDF"
-  };
+  },
 
    {
-    "title": "Serié des exercices :",
+    "title": "Serié des exercices : Les fonction",
     "level": "1BACSE",
     "type": "Exercices",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/14GIN0S-l822O2rqk1itpV7P8GO4Unke-/view?usp=sharing",
     "format": "PDF"
-  };
+  },
 
    {
-    "title": "Serié des exercices :",
+    "title": "Correction de serié des exercices : les fonctions",
     "level": "1BACSE",
     "type": "Exercices",
     "description": "",
-    "url": "",
+    "url": "https://drive.google.com/file/d/17kAXvSKv-QYfEESWA8pg4YAUjProFiC5/view?usp=sharing",
     "format": "PDF"
-  };
+  },
 
 
 
@@ -102,9 +102,17 @@ window.RESOURCES_1BACSE_EXERCICES_PDF = [
 
 
 
+{
+    "title": "Serié des exercices :",
+    "level": "1BACSE",
+    "type": "Exercices",
+    "description": "",
+    "url": "",
+    "format": "PDF"
+  },
 
-  {
-    "title": "",
+   {
+    "title": "Correction de serié des exercices :",
     "level": "1BACSE",
     "type": "Exercices",
     "description": "",
